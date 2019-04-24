@@ -82,13 +82,14 @@ Write a function named removeWithForEach that produces the same output as challe
 
 const removeWithForEach = (arr, callback) => {
   // Solution code here...
-  arr.forEach((value, idx) => {
+  arr.forEach(value => {
     if((value%3)===2){
       arr.pop();
+    }
   });
   return arr;
 }
-}
+
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
@@ -100,8 +101,18 @@ This function should use forEach again, but rather than taking in a callback as 
 This anonymous function should accept up to three arguments: the element, the index, and the array.
 ------------------------------------------------------------------------------------------------ */
 
+const anonymousFunction = arr => {
+  arr.forEach(value => {
+    if((value%3)===2){
+      arr.pop();
+    }
+  });
+}
+
 const removeWithAnon = (arr) => {
   // Solution code here...
+  arr.forEach(anonymousFunction); 
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -121,7 +132,23 @@ The inventory is formatted like this:
 This function should use forEach to populate your grocery list based on the store's inventory. If the item is available, add it to your list. Return the final list.
 ------------------------------------------------------------------------------------------------ */
 
+//following codes have been referenced from Michelle's class lecture.
 const createList = (availableItems) => {
+  //make a grocery list (array)
+  //go through the inventory for each item
+  //if its avialable, add to grocery list, otherwise do nothing
+  //give back final grocery list
+
+  let behavior = (element, index, arr) =>{
+    if(element.available){
+      groceries.push(element.name);
+    }
+  }
+
+  let groceries = [];
+  availableItems.forEach(behavior);
+
+  return groceries;
   // Solution code here...
 };
 
