@@ -65,11 +65,9 @@ Do not use the vertical bar (pipe) in your pattern.
 
 const matchMonth = (input) => {
   // Solution code here...
-   input = /\[a-zA-Z]/g;
-  let correctAnswer = ['October', 'Oct', 'october', 'oct'];
-  for (let i=0; i<correctAnswer.length; i++){
-    return correctAnswer[i].match(input); 
-}
+  // input = (input.toString()).toLowerCase();
+  let correctAnswer = /^[Oo]ct(ober)?$/
+  return correctAnswer.test(input);
 };
 
 /* ------------------------------------------------------------------------------------------------
