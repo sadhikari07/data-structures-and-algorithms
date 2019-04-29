@@ -83,15 +83,11 @@ const gruffaloCrumble = {
 const listFoods = (recipe) => {
   let result = [];
   // Solution code here...
-  console.log(recipe.ingredients);
-for (let i = 0; i<recipe.ingredients.length; i++){
-  if(recipe.ingredients[i].test(/-/)){
-    re
-  }
-
-  result = recipe.ingredients[i].match(/\b(\w+)([-]\w*)?\b/g);
-}
-  result = result.slice(2);
+  //referenced from Michelle's lecture in class:
+  recipe.ingredients.forEach((ing) => {
+     let secondString = ing.indexOf(' ', ing.indexOf(' ')+1);
+     result.push(ing.slice(secondString + 1)); 
+  });
   return result;
 };
 
@@ -102,17 +98,17 @@ Write a function named splitFoods that uses split to produce the same output as 
 
 You may also use other string or array methods.
 ------------------------------------------------------------------------------------------------ */
+//Portion of the following code was referenced from https://stackoverflow.com/questions/20883404/javascript-returning-the-last-word-in-a-string
 
 const splitFoods = (recipe) => {
   let result = [];
-  for (let i=0; i<recipe.ingredients.length; i++){
-    result.push(recipe.ingredients[i].split(' ')[1]);
-    }
-    // Solution code here...
-    console.log(result);
-    return result;
-  // Solution code here...
-  return result;
+  recipe.ingredients.forEach((ing) => {
+    let secondString = ing.split(" ").splice(2);
+    secondString = secondString.join(' ');
+    result.push(secondString);
+    
+ });
+ return result;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -147,13 +143,15 @@ For example:
   removeEvenValues(integers);
   console.log(integers) will print [1, 3, 5]
 ------------------------------------------------------------------------------------------------ */
-
+//referenced from Michelle's lecture in class:
 const removeEvenValues = (arr) => {
   let newArr = [];
-  for (let i = 0; i <arr.length; i++){
+  let i=0;
+  while (i <arr.length){
     if ((arr[i]%2)===0){
-      arr.splice(arr[i]);
+      arr.splice(i, 1);
     }
+    else i++;
   }
   return arr;
   // Solution code here...
