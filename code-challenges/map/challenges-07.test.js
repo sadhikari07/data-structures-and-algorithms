@@ -75,11 +75,16 @@ const evenOdd = (arr) => {
   // Solution code here...
   let newArr = [];
   for (let i = 0; i<arr.length; i++){
-    if (arr[i]%2===0){
-      newArr.push('even');
+    if (isNaN(arr[i])){
+      newArr.push('N/A');
     }
     else{
-      newArr.push('odd');
+        if (arr[i]%2===0){
+        newArr.push('even');
+      }
+      else{
+        newArr.push('odd');
+      }
     }
   }
   return newArr;
@@ -128,8 +133,11 @@ const snorlaxAbilities = {
 };
 
 const extractAbilities = (arr) => {
- 
- 
+  let newArr = [];
+  for (let i = 0; i<arr.length; i++){
+    newArr.push(arr[i].ability.name);
+  }
+ return newArr;
   // Solution code here...
 };
 
@@ -177,8 +185,15 @@ const snorlaxStats = {
 };
 
 const extractStats = (arr) => {
+  return arr.map(statObject=>{
+   return {
+     name: statObject.stat.name, 
+     total: statObject.baseStat+statObject.effort
+   }
+  })
   // Solution code here...
 };
+
 
 /* ------------------------------------------------------------------------------------------------
 TESTS
