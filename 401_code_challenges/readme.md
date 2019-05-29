@@ -1,4 +1,4 @@
-Code Challenge: Class 02:
+# Code Challenge: Class 02:
 
 ## Challenge Summary:
 Write a function called insertShiftArray which takes in an array and the value to be added. Without utilizing any of the built-in methods available to your language, return an array with the new value added at the middle index.
@@ -8,3 +8,5 @@ I itried to approach this problem by first creating a method that would accept a
 
 ## Solution:
 ![arry_shift_whiteboard](./assets/array_shift.jpg)
+
+[##Link to arrayShift.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/401_code_challenges/array_shift/src/main/java/array_shift/ArrayShift.java)
