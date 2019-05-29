@@ -10,3 +10,5 @@ I itried to approach this problem by first creating a method that would accept a
 ![arry_shift_whiteboard](./assets/array_shift.jpg)
 
 [##Link to arrayShift.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/401_code_challenges/array_shift/src/main/java/array_shift/ArrayShift.java)
+
+[##Link to arrayShiftTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/401_code_challenges/array_shift/src/test/java/array_shift/ArrayShiftTest.java)
