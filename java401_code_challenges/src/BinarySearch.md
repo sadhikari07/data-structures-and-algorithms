@@ -10,8 +10,8 @@ If midway point was less than the search key, I changed the first index to be ne
 The loop continued until search match was found, in which case the index was returned, and if no match was found, -1 was returned.
 
 ## Solution:
-![arry_shift_whiteboard](../assets/array_shift.jpg)
+![Binary Search_whiteboard](../assets/binarySearchWhiteBoard.jpg)
 
-## [Link to arrayShift.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/401_code_challenges/array_shift/src/main/java/array_shift/ArrayShift.java)
+## [Link to binarySearch.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/BinarySearch.java)
 
-## [Link to arrayShiftTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/401_code_challenges/array_shift/src/test/java/array_shift/ArrayShiftTest.java)
+## [Link to binarySearchTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/BinarySearchTest.java)
