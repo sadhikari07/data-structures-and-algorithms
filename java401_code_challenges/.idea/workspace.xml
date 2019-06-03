@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="330958fd-b65d-4f51-ac73-f953fffb081e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../401_code_challenges/array_shift/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../401_code_challenges/array_shift/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -23,21 +24,24 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/java401_code_challenges/BinarySearch.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/java401_code_challenges/linkedlist/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            <state relative-caret-position="425">
+              <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/java401_code_challenges/BinarySearchTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/java401_code_challenges/linkedlist/LinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" column="55" lean-forward="true" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+            <state relative-caret-position="1155">
+              <caret line="77" column="16" lean-forward="true" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,31 +65,25 @@
         <option value="$PROJECT_DIR$/src/main/java/java401_code_challenges/binarySearch.java" />
         <option value="$PROJECT_DIR$/src/test/java/java401_code_challenges/BinarySearchTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/java401_code_challenges/BinarySearch.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/gradle.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/java401_code_challenges/linkedlist/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/java401_code_challenges/linkedlist/LinkedListTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="176" />
     <option name="y" value="23" />
-    <option name="width" value="690" />
+    <option name="width" value="1400" />
     <option name="height" value="877" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -145,7 +143,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,6 +154,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="java401_code_challenges.linkedlist" />
       <recent name="java401_code_challenges" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -175,81 +173,81 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BinarySearchTest">
-    <configuration name="BinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LinkedListTest">
+    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java401_code_challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java401_code_challenges.*" />
+          <option name="PATTERN" value="java401_code_challenges.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java401_code_challenges" />
-      <option name="MAIN_CLASS_NAME" value="java401_code_challenges.BinarySearchTest" />
+      <option name="PACKAGE_NAME" value="java401_code_challenges.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="java401_code_challenges.linkedlist.LinkedListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTest.testBinarySearchFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.testIfValueDoesNotExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java401_code_challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java401_code_challenges.*" />
+          <option name="PATTERN" value="java401_code_challenges.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java401_code_challenges" />
-      <option name="MAIN_CLASS_NAME" value="java401_code_challenges.BinarySearchTest" />
-      <option name="METHOD_NAME" value="testBinarySearchFunction" />
+      <option name="PACKAGE_NAME" value="java401_code_challenges.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="java401_code_challenges.linkedlist.LinkedListTest" />
+      <option name="METHOD_NAME" value="testIfValueDoesNotExists" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTest.testBinarySearchFunctionDoesntMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.testIfValueExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java401_code_challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java401_code_challenges.*" />
+          <option name="PATTERN" value="java401_code_challenges.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java401_code_challenges" />
-      <option name="MAIN_CLASS_NAME" value="java401_code_challenges.BinarySearchTest" />
-      <option name="METHOD_NAME" value="testBinarySearchFunctionDoesntMatch" />
+      <option name="PACKAGE_NAME" value="java401_code_challenges.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="java401_code_challenges.linkedlist.LinkedListTest" />
+      <option name="METHOD_NAME" value="testIfValueExists" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTest.testBinarySearchFunctionOnFirstHalf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.testInsertMultipleHeads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java401_code_challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java401_code_challenges.*" />
+          <option name="PATTERN" value="java401_code_challenges.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java401_code_challenges" />
-      <option name="MAIN_CLASS_NAME" value="java401_code_challenges.BinarySearchTest" />
-      <option name="METHOD_NAME" value="testBinarySearchFunctionOnFirstHalf" />
+      <option name="PACKAGE_NAME" value="java401_code_challenges.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="java401_code_challenges.linkedlist.LinkedListTest" />
+      <option name="METHOD_NAME" value="testInsertMultipleHeads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTest.testBinarySearchFunctionOnSecondHalf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.testReturnList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java401_code_challenges.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java401_code_challenges.*" />
+          <option name="PATTERN" value="java401_code_challenges.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java401_code_challenges" />
-      <option name="MAIN_CLASS_NAME" value="java401_code_challenges.BinarySearchTest" />
-      <option name="METHOD_NAME" value="testBinarySearchFunctionOnSecondHalf" />
+      <option name="PACKAGE_NAME" value="java401_code_challenges.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="java401_code_challenges.linkedlist.LinkedListTest" />
+      <option name="METHOD_NAME" value="testReturnList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -257,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BinarySearchTest" />
-        <item itemvalue="JUnit.BinarySearchTest.testBinarySearchFunctionOnFirstHalf" />
-        <item itemvalue="JUnit.BinarySearchTest.testBinarySearchFunctionDoesntMatch" />
-        <item itemvalue="JUnit.BinarySearchTest.testBinarySearchFunctionOnSecondHalf" />
-        <item itemvalue="JUnit.BinarySearchTest.testBinarySearchFunction" />
+        <item itemvalue="JUnit.LinkedListTest" />
+        <item itemvalue="JUnit.LinkedListTest.testReturnList" />
+        <item itemvalue="JUnit.LinkedListTest.testIfValueDoesNotExists" />
+        <item itemvalue="JUnit.LinkedListTest.testIfValueExists" />
+        <item itemvalue="JUnit.LinkedListTest.testInsertMultipleHeads" />
       </list>
     </recent_temporary>
   </component>
@@ -279,69 +277,69 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchTest_testBinarySearchFunctionOnSecondHalf - 2019.05.29 at 17h 59m 19s.xml">
-      <configuration name="BinarySearchTest.testBinarySearchFunctionOnSecondHalf" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testInsertMultipleHeads - 2019.06.03 at 10h 00m 39s.xml">
+      <configuration name="LinkedListTest.testInsertMultipleHeads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTest_testBinarySearchFunctionDoesntMatch - 2019.05.29 at 18h 01m 22s.xml">
-      <configuration name="BinarySearchTest.testBinarySearchFunctionDoesntMatch" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testInsertMultipleHeads - 2019.06.03 at 10h 00m 46s.xml">
+      <configuration name="LinkedListTest.testInsertMultipleHeads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTest - 2019.05.29 at 18h 02m 26s.xml">
-      <configuration name="BinarySearchTest" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testIfValueExists - 2019.06.03 at 10h 03m 45s.xml">
+      <configuration name="LinkedListTest.testIfValueExists" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTest_testBinarySearchFunctionOnFirstHalf - 2019.05.29 at 18h 03m 04s.xml">
-      <configuration name="BinarySearchTest.testBinarySearchFunctionOnFirstHalf" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testIfValueDoesNotExists - 2019.06.03 at 10h 04m 39s.xml">
+      <configuration name="LinkedListTest.testIfValueDoesNotExists" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTest - 2019.05.29 at 18h 03m 12s.xml">
-      <configuration name="BinarySearchTest" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testReturnList - 2019.06.03 at 10h 13m 26s.xml">
+      <configuration name="LinkedListTest.testReturnList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTest_testBinarySearchFunctionDoesntMatch - 2019.05.29 at 18h 07m 47s.xml">
-      <configuration name="BinarySearchTest.testBinarySearchFunctionDoesntMatch" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testReturnList - 2019.06.03 at 10h 13m 46s.xml">
+      <configuration name="LinkedListTest.testReturnList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTest_testBinarySearchFunctionDoesntMatch - 2019.05.29 at 18h 08m 27s.xml">
-      <configuration name="BinarySearchTest.testBinarySearchFunctionDoesntMatch" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testReturnList - 2019.06.03 at 10h 15m 11s.xml">
+      <configuration name="LinkedListTest.testReturnList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTest_testBinarySearchFunctionDoesntMatch - 2019.05.29 at 18h 14m 10s.xml">
-      <configuration name="BinarySearchTest.testBinarySearchFunctionDoesntMatch" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testReturnList - 2019.06.03 at 10h 21m 29s.xml">
+      <configuration name="LinkedListTest.testReturnList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTest_testBinarySearchFunctionOnFirstHalf - 2019.05.29 at 18h 14m 40s.xml">
-      <configuration name="BinarySearchTest.testBinarySearchFunctionOnFirstHalf" configurationId="JUnit" />
+    <history-entry file="LinkedListTest_testReturnList - 2019.06.03 at 10h 22m 46s.xml">
+      <configuration name="LinkedListTest.testReturnList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySearchTest - 2019.05.29 at 18h 14m 44s.xml">
-      <configuration name="BinarySearchTest" configurationId="JUnit" />
+    <history-entry file="LinkedListTest - 2019.06.03 at 10h 22m 53s.xml">
+      <configuration name="LinkedListTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="176" y="23" width="690" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1400" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.046296295" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22164948" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.32939634" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3401084" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.339895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32939634" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -352,17 +350,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/java401_code_challenges/BinarySearchTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/java401_code_challenges/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="55" lean-forward="true" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+        <state relative-caret-position="465">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/java401_code_challenges/BinarySearch.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/java401_code_challenges/BinarySearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <caret line="27" column="55" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/java401_code_challenges/linkedlist/LinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="16" lean-forward="true" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/java401_code_challenges/linkedlist/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
         </state>
       </provider>
     </entry>
