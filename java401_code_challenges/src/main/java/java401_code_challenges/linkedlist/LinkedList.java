@@ -41,7 +41,7 @@ public class LinkedList {
     public ArrayList<Node> print(){
         Node current = this.head;
         if(current == null) {
-            System.out.println("There are nothing on the list right now");
+            System.out.println("There is nothing on the list right now");
             return null;
         }
 
@@ -69,24 +69,8 @@ public class LinkedList {
         System.out.println("The list does not include " + valueToBeChecked);
         return false;
     }
-
-
-
-    public static void main(String[] args) {
-        LinkedList newListCreator = new LinkedList();
-
-        newListCreator.insert(1);
-        newListCreator.insert(2);
-        newListCreator.insert(3);
-        newListCreator.insert(4);
-
-        //Displays the nodes present in the list
-        newListCreator.print();
-        newListCreator.includes(4);
-        newListCreator.includes(5);
-    }
+    
 }
-
 
 
 //Reference: https://www.javatpoint.com/java-program-to-create-and-display-a-singly-linked-list
