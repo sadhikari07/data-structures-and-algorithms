@@ -37,6 +37,68 @@ public class LinkedList {
         }
     }
 
+    public void append(int value){
+        Node newNode = new Node(value);
+        newNode.next = null;
+        if(head == null){
+            head = newNode;
+            tail = newNode;
+        }
+        Node current = head;
+        while (current.next != null) {
+            current = current.next;
+        }
+        current.next = newNode;
+        return;
+    }
+
+    public void insertAfter(int value, int newVal){
+        Node newNode = new Node(newVal);
+        Node current = head;
+        Node nodeFound = null;
+        while (current!=null){
+            if (current.value == value){
+                nodeFound = current;
+            }
+            current = current.next;
+        }
+
+        if (nodeFound==null)System.out.println("Match not found exception. The value you entered has no match.");
+        else{
+            newNode.next = nodeFound.next;
+            nodeFound.next = newNode;
+
+        }
+
+    }
+
+    public void insertBefore(int value, int newVal){
+        Node newNode = new Node(newVal);
+        Node current = head;
+        Node nodeFound = null;
+        if (value == head.value) {
+            newNode.next = head;
+            head = newNode;
+            return;
+        }
+
+        while (current.next!=null){
+            if (current.next.value == value){
+                nodeFound = current;
+            }
+            current = current.next;
+        }
+
+        if (nodeFound==null){
+            System.out.println("Match not found exception. The value you entered has no match.");
+        }
+        else{
+            newNode.next = nodeFound.next;
+            nodeFound.next = newNode;
+        }
+
+    }
+
 
     public ArrayList<Node> print(){
         Node current = this.head;
@@ -57,7 +119,6 @@ public class LinkedList {
 
     public boolean includes(int valueToBeChecked){
         Node current = head;
-        boolean valueChecker = false;
         while (current!=null){
             if (current.value == valueToBeChecked){
                 System.out.println("The list includes " + valueToBeChecked);
@@ -69,8 +130,10 @@ public class LinkedList {
         System.out.println("The list does not include " + valueToBeChecked);
         return false;
     }
-    
+
+
 }
 
 
 //Reference: https://www.javatpoint.com/java-program-to-create-and-display-a-singly-linked-list
+//https://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/

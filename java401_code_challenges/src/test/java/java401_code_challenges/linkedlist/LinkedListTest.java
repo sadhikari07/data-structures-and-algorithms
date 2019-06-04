@@ -79,5 +79,65 @@ public class LinkedListTest {
         };
     }
 
+    @Test
+    public void testAppendsToLast(){
+        LinkedList classUnderTest = new LinkedList();
+        classUnderTest.insert(1);
+        classUnderTest.insert(2);
+        classUnderTest.insert(3);
+        classUnderTest.append(5);
+        assertEquals("Last item on the list should be 5", 5, classUnderTest.print().get(3).value);
+    }
+
+    @Test
+    public void testAppendsMultipleToLast(){
+        LinkedList classUnderTest = new LinkedList();
+        classUnderTest.insert(1);
+        classUnderTest.insert(2);
+        classUnderTest.insert(3);
+        classUnderTest.append(5);
+        classUnderTest.append(6);
+        assertEquals("LSum of fourth and fifth item should be 11", 11, classUnderTest.print().get(3).value+classUnderTest.print().get(4).value);
+    }
+
+    @Test
+    public void testInsertBeforeMiddle() {
+        LinkedList classUnderTest = new LinkedList();
+        classUnderTest.insert(1);
+        classUnderTest.insert(2);
+        classUnderTest.insert(3);
+        classUnderTest.insertBefore(2, 11);
+        assertEquals("Second item should be 11", 11, classUnderTest.print().get(1).value);
+    }
+
+    @Test
+    public void testInsertBeforeFirst() {
+        LinkedList classUnderTest = new LinkedList();
+        classUnderTest.insert(1);
+        classUnderTest.insert(2);
+        classUnderTest.insert(3);
+        classUnderTest.insertBefore(3, 11);
+        assertEquals("First item should be 11", 11, classUnderTest.print().get(0).value);
+    }
+
+    @Test
+    public void testInsertAfterMiddle() {
+        LinkedList classUnderTest = new LinkedList();
+        classUnderTest.insert(1);
+        classUnderTest.insert(2);
+        classUnderTest.insert(3);
+        classUnderTest.insertAfter(2, 11);
+        assertEquals("Third item should be 11", 11, classUnderTest.print().get(2).value);
+    }
+
+    @Test
+    public void testInsertAfterLast() {
+        LinkedList classUnderTest = new LinkedList();
+        classUnderTest.insert(1);
+        classUnderTest.insert(2);
+        classUnderTest.insert(3);
+        classUnderTest.insertAfter(1, 11);
+        assertEquals("First item should be 11", 11, classUnderTest.print().get(3).value);
+    }
 
 }
