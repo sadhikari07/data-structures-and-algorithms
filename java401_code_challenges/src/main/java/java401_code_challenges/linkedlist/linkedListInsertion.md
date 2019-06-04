@@ -16,7 +16,7 @@ To insert before: If the given value was the value of head, then insert the node
 To insert after: Go through the list to find which node has the input value. Once the value is found, insert the node after the current node. If the value doesn't match, print out an invalid value error. The big O for this method was O(n).
 
 ## Solution
-![Linked list insertion](java401_code_challenges/assets/linkedList.jpg)
+![Linked list insertion](j../../assets/linkedList.jpg)
 
 
 ## [Link to linkedList.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/linkedlist/LinkedList.java)
