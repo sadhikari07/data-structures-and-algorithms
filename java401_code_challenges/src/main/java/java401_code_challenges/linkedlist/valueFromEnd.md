@@ -12,7 +12,7 @@ Else, we go through the linked list until the length of the integer subtracts to
 The big O for time for this approach is O(n).
 
 ## Solution
-![Linked list insertion](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/linkedList.jpg)
+![Linked list insertion](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/findFromLast.jpg)
 
 
 ## [Link to linkedList.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/linkedlist/LinkedList.java)
