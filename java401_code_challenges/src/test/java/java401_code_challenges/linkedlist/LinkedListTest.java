@@ -140,4 +140,54 @@ public class LinkedListTest {
         assertEquals("First item should be 11", 11, classUnderTest.print().get(3).value);
     }
 
+    @Test
+    (expected = IllegalArgumentException.class)
+    public void testValueFromEndKmoreThanLength() {
+        LinkedList classUnderTest = new LinkedList();
+        classUnderTest.insert(1);
+        classUnderTest.insert(2);
+        classUnderTest.insert(3);
+        classUnderTest.insert(4);
+        classUnderTest.insert(5);
+        classUnderTest.insert(6);
+        int k = 7;
+        classUnderTest.valueFromEnd(k);
+    }
+
+    @Test
+    public void testValueFromEndSameLength() {
+        LinkedList classUnderTest = new LinkedList();
+        classUnderTest.insert(1);
+        classUnderTest.insert(2);
+        classUnderTest.insert(3);
+        classUnderTest.insert(4);
+        classUnderTest.insert(5);
+        classUnderTest.insert(6);
+        int k = 6;
+        assertEquals("First item should be 1", 6, classUnderTest.valueFromEnd(k));
+    }
+
+    @Test
+    public void testValueFromEndSizeOne() {
+        LinkedList classUnderTest = new LinkedList();
+        classUnderTest.insert(1);
+        int k = 0;
+        assertEquals("First item should be 1", 1, classUnderTest.valueFromEnd(k));
+    }
+
+    @Test
+    public void testValueFromEnd() {
+        LinkedList classUnderTest = new LinkedList();
+        classUnderTest.insert(1);
+        classUnderTest.insert(2);
+        classUnderTest.insert(3);
+        classUnderTest.insert(4);
+        classUnderTest.insert(5);
+        classUnderTest.insert(6);
+        int k = 2;
+        assertEquals("First item should be 1", 3, classUnderTest.valueFromEnd(k));
+    }
+
+
+
 }

@@ -3,20 +3,22 @@ package java401_code_challenges.linkedlist;
 import java.util.ArrayList;
 
 public class LinkedList {
+
 //Instance variables:
 
     public Node head;
     public Node tail;
 
-//This is a constructor:
-    public LinkedList(){
+    //This is a constructor:
+    public LinkedList() {
         this.head = null;
         this.tail = null;
     }
 
-    class Node{
+    class Node {
         public int value;
         public Node next;
+
         public Node(int value) {
             this.value = value;
             this.next = null;
@@ -24,23 +26,21 @@ public class LinkedList {
     }
 
 
-
     public void insert(int value) {
         Node newNode = new Node(value);
-        if(head == null){
+        if (head == null) {
             head = newNode;
             tail = newNode;
-        }
-        else {
+        } else {
             newNode.next = head;
             head = newNode;
         }
     }
 
-    public void append(int value){
+    public void append(int value) {
         Node newNode = new Node(value);
         newNode.next = null;
-        if(head == null){
+        if (head == null) {
             head = newNode;
             tail = newNode;
         }
@@ -52,19 +52,19 @@ public class LinkedList {
         return;
     }
 
-    public void insertAfter(int value, int newVal){
+    public void insertAfter(int value, int newVal) {
         Node newNode = new Node(newVal);
         Node current = head;
         Node nodeFound = null;
-        while (current!=null){
-            if (current.value == value){
+        while (current != null) {
+            if (current.value == value) {
                 nodeFound = current;
             }
             current = current.next;
         }
 
-        if (nodeFound==null)System.out.println("Match not found exception. The value you entered has no match.");
-        else{
+        if (nodeFound == null) System.out.println("Match not found exception. The value you entered has no match.");
+        else {
             newNode.next = nodeFound.next;
             nodeFound.next = newNode;
 
@@ -72,7 +72,7 @@ public class LinkedList {
 
     }
 
-    public void insertBefore(int value, int newVal){
+    public void insertBefore(int value, int newVal) {
         Node newNode = new Node(newVal);
         Node current = head;
         Node nodeFound = null;
@@ -82,17 +82,16 @@ public class LinkedList {
             return;
         }
 
-        while (current.next!=null){
-            if (current.next.value == value){
+        while (current.next != null) {
+            if (current.next.value == value) {
                 nodeFound = current;
             }
             current = current.next;
         }
 
-        if (nodeFound==null){
+        if (nodeFound == null) {
             System.out.println("Match not found exception. The value you entered has no match.");
-        }
-        else{
+        } else {
             newNode.next = nodeFound.next;
             nodeFound.next = newNode;
         }
@@ -100,16 +99,16 @@ public class LinkedList {
     }
 
 
-    public ArrayList<Node> print(){
+    public ArrayList<Node> print() {
         Node current = this.head;
-        if(current == null) {
+        if (current == null) {
             System.out.println("There is nothing on the list right now");
             return null;
         }
 
         ArrayList<Node> arrayListNodes = new ArrayList<>();
         System.out.println("Here is the list that you created: ");
-        while(current != null) {
+        while (current != null) {
             arrayListNodes.add(current);
             System.out.println(current.value);
             current = current.next;
@@ -117,10 +116,10 @@ public class LinkedList {
         return arrayListNodes;
     }
 
-    public boolean includes(int valueToBeChecked){
+    public boolean includes(int valueToBeChecked) {
         Node current = head;
-        while (current!=null){
-            if (current.value == valueToBeChecked){
+        while (current != null) {
+            if (current.value == valueToBeChecked) {
                 System.out.println("The list includes " + valueToBeChecked);
                 return true;
             }
@@ -131,7 +130,24 @@ public class LinkedList {
         return false;
     }
 
+    public int valueFromEnd(int k) {
+        Node current = this.head;
+        int counter = 0;
+        while (current != null) {
+            current = current.next;
+            counter++;
+        }
+        if (counter < k) {
+            throw new IllegalArgumentException("Illegal input.");
+        }
 
+        current = this.head;
+        int iterator = counter - k - 1;
+        for (int i = 0; i < iterator; i++) {
+            current = current.next;
+        }
+        return current.value;
+    }
 }
 
 
