@@ -188,6 +188,57 @@ public class LinkedListTest {
         assertEquals("First item should be 1", 3, classUnderTest.valueFromEnd(k));
     }
 
+    @Test
+    public void testMergedListsBySize() {
+        LinkedList one = new LinkedList();
+        LinkedList two = new LinkedList();
+        one.insert(7);
+        one.insert(5);
+        one.insert(3);
+        one.insert(1);
+        two.insert(8);
+        two.insert(6);
+        two.insert(4);
+        two.insert(2);
+        LinkedList.mergeLists(one, two);
+        int expectedOutput = 8;
+
+        assertEquals("There should be 8 items.", expectedOutput, one.print().size());
+    }
+
+    @Test
+    public void testItemsOnList(){
+        LinkedList one = new LinkedList();
+        LinkedList two = new LinkedList();
+        one.insert(3);
+        one.insert(1);
+        two.insert(4);
+        two.insert(2);
+        int[] outputArray = {1, 2, 3, 4};
+        LinkedList.mergeLists(one, two);
+        ArrayList<LinkedList.Node> outptList = one.print();
+        for(int i =0; i<outptList.size(); i++){
+            assertEquals("Values on the list should be equal!", outputArray[i], outptList.get(i).value);
+        }
+    }
+
+    @Test
+    public void testItemsOnListMergingUneven() {
+        LinkedList one = new LinkedList();
+        LinkedList two = new LinkedList();
+        one.insert(3);
+        one.insert(1);
+        two.insert(8);
+        two.insert(6);
+        two.insert(4);
+        two.insert(2);
+        int[] outputArray = {1, 2, 3, 4};
+        LinkedList.mergeLists(one, two);
+        ArrayList<LinkedList.Node> outptList = one.print();
+        for (int i = 0; i < outptList.size(); i++) {
+            assertEquals("Values on the list should be equal!", outputArray[i], outptList.get(i).value);
+        }
+    }
 
 
 }
