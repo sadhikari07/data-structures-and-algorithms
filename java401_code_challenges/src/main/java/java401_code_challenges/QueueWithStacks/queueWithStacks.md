@@ -14,23 +14,6 @@ Instantiate these Stack objects in your PseudoQueue constructor.
 ## Structure and Testing
 Utilize the Single-responsibility principle: any methods you write should be clean, reusable, abstract component parts to the whole challenge.
 
-Example
-enqueue(value)
-
-Input	           Args	Output
-
-[10]->[15]->[20]	5	[5]->[10]->[15]->[20]
-
- 	               5	[5]
-
-dequeue()
-
-Input	                Output	Internal State
-
-[5]->[10]->[15]->[20]	  20	    [5]->[10]->[15])
-
-[5]->[10]->[15]	        15	    [5]->[10]
-
 
 ## Approach & Efficiency
 
