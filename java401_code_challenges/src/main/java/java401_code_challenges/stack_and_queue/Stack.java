@@ -20,10 +20,10 @@ public class Stack {
       top = newNode;
   }
 
-  public int pop(){
+  public Integer pop(){
       if (top == null){
           System.out.println("Nothing on the stack to return.");
-          return -1;
+          return null;
       }
       int topValue = top.value;
       top = top.next;
@@ -31,10 +31,10 @@ public class Stack {
   }
 
 
-    public int peek(){
+    public Integer peek(){
       if (top == null){
           System.out.println("Cannot peek into the thing that doesn't exist.");
-          return -1;
+          return null;
         }
       return top.value;
     }
