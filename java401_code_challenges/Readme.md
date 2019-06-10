@@ -9,3 +9,5 @@
 ## [Readme for find value of index from last](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/linkedlist/valueFromEnd.md)
 
 ## [Readme for merging](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/linkedlist/mergeLists.md)
+
+## [Readme for stack and queue](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/stack_and_queue/stackAndQueue.md)
