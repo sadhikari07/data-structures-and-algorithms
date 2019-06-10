@@ -12,7 +12,7 @@ public class Stack {
   public void push(int value){
       Node newNode = new Node(value);
       if (newNode == null){
-          System.out.println("Nothing on the stack to return.");
+          System.out.println("Cannot insert null.");
           return;
       }
       newNode.value = value;
@@ -28,11 +28,14 @@ public class Stack {
       int topValue = top.value;
       top = top.next;
       return topValue;
-
   }
 
 
     public int peek(){
+      if (top == null){
+          System.out.println("Cannot peek into the thing that doesn't exist.");
+          return -1;
+        }
       return top.value;
     }
 
@@ -46,9 +49,10 @@ public class Stack {
          System.out.println(newStack.peek());
       newStack.pop();
         System.out.println(newStack.peek());
-
     }
-
 }
+
+
+//Reference: https://www.geeksforgeeks.org/implement-a-stack-using-singly-linked-list/
 
 
