@@ -1,5 +1,7 @@
 package java401_code_challenges.linkedlist;
 
+import sun.awt.image.ImageWatched;
+
 import java.util.ArrayList;
 
 public class LinkedList {
@@ -168,8 +170,54 @@ public class LinkedList {
         return one;
     }
 
+    public static LinkedList reverse(LinkedList l1) {
 
-}
+        Node current = l1.head;
+        ArrayList<Integer> oneA = new ArrayList();
+        while (current!=null){
+            oneA.add(current.value);
+            current = current.next;
+        }
+
+        LinkedList reversedList = new LinkedList();
+        for (int i = 0; i<oneA.size(); i++){
+            reversedList.insert(oneA.get(i));
+        }
+        return reversedList;
+
+//        Node previous = null;
+//        Node pointer = head;
+//        Node current = null;
+//        while (pointer != null) {
+//            current = pointer;
+//
+//            pointer = pointer.next;
+//
+//            current.next = previous;
+//
+//            previous = current;
+//
+//            head = current;
+//        }
+
+
+
+    }
+
+
+
+    public static void main(String[] args) {
+        LinkedList l1 = new LinkedList();
+        l1.insert(1);
+        l1.insert(2);
+        l1.insert(3);
+        l1.insert(4);
+        l1.print();
+        System.out.println("........");
+        System.out.println("**********");
+        reverse(l1).print();
+    }
+    }
 
 
 //Reference: https://www.javatpoint.com/java-program-to-create-and-display-a-singly-linked-list
