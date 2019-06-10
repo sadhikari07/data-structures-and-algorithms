@@ -76,7 +76,30 @@ Ensure your tests are passing before you submit your solution.
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 
 ## API
-<!-- Description of each method publicly available to your Stack and Queue-->
+
+Class Node: Creates a new node with passed integer value and links to the next node.
+
+Avialable for stack:
+
+  Stack: Creates a stack with a default empty value assigned to top when the stack is created.
+
+  Push: This method takes an integer as an argument and adds a new node with that value to the top of the stack with an O(1) Time performance.
+
+  Pop: This method does not take any argument, removes the node from the top of the stack, and returns the node’s value.
+
+  Peek: This method does not take an argument and returns the value of the node located on top of the stack, without removing it from the stack.
+  
+Avialable for queue:
+
+  Queue: Creates a stack with a default empty value assigned to top when the stack is created.
+
+  Enqueue: This method takes an integer an argument and adds a new node with that value to the back of the queue with an O(1) Time performance.
+
+  Dequeue: This method does not take any argument, removes the node from the front of the queue, and returns the node’s value. 
+
+  Peek: This method does not take an argument and returns the value of the node located in the front of the queue, without removing it from the queue.
+
+
 
 ## [Link to Node.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/stack_and_queue/Node.java)
 
