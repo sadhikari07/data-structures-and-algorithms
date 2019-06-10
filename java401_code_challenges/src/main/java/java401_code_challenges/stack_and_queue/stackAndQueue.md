@@ -73,7 +73,21 @@ Can successfully instantiate an empty queue
 Ensure your tests are passing before you submit your solution.
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+For implementing stack: 
+  Push: If the new node to be inserted doesn't have a value null, assign the top of the stack to the node with the value that was provided.
+  Pop: If the stack has at least one item, point the top of the stack to the next of the top, and top will be removed from the stack.
+  Peek: If the stack has at least one item, return the value of the top of the stack.
+  
+  The big O for time and space for this approach is O(1).
+  
+For implementing queue: 
+  Enqueue: If the stack is empty, assign the front and back of the stack to the node with the value that was provided. If there are items in the stack, assign back.next to the new node and reassign new node to be the back of the queue.
+  Deque: If the queue has at least one item, point the front of the queue to the next of the front, and front will be removed from the queue.
+  Peek: If the queue has at least one item, return the value of the front of the stack.
+  
+  The big O for time and space for this approach is O(1).
+  
 
 ## API
 
@@ -106,3 +120,5 @@ Avialable for queue:
 ## [Link to Queue.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/stack_and_queue/Queue.java)
 
 ## [Link to Stack.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/stack_and_queue/Stack.java)
+
+## [Link to stack_and_queueTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/stack_and_queue/Stack_and_queueTest.java)
