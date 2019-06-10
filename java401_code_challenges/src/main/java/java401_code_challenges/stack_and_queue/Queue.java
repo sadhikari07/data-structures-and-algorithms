@@ -49,5 +49,6 @@ public class Queue {
         newQueue.dequeue();
         System.out.println(newQueue.peek());
     }
-
 }
+
+//Reference: https://www.geeksforgeeks.org/queue-set-2-linked-list-implementation/

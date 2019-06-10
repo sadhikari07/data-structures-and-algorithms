@@ -185,22 +185,6 @@ public class LinkedList {
         }
         return reversedList;
 
-//        Node previous = null;
-//        Node pointer = head;
-//        Node current = null;
-//        while (pointer != null) {
-//            current = pointer;
-//
-//            pointer = pointer.next;
-//
-//            current.next = previous;
-//
-//            previous = current;
-//
-//            head = current;
-//        }
-
-
 
     }
 
