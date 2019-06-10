@@ -62,4 +62,4 @@ This gave me updated queue with the dequeued item off the queue.
 
 ## [Link to queuewithstacks.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/QueueWithStacks/QueueWithStacks.java)
 
-## [Link to QueueWithStacks.java](https://github.com/sadhikari07/data-structures-and-algorithms/tree/master/java401_code_challenges/src/test/java/java401_code_challenges/QueueWithStacks)
+## [Link to QueueWithStacksTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/QueueWithStacks/QueueWithStacksTest.java)
