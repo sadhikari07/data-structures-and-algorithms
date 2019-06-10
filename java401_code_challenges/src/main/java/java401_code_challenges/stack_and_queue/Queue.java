@@ -1,5 +1,7 @@
 package java401_code_challenges.stack_and_queue;
 
+import java.util.EmptyStackException;
+
 public class Queue {
 
     public Node front;
