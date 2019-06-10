@@ -57,3 +57,9 @@ Ensure your tests are passing before you submit your solution.
 
 ## API
 <!-- Description of each method publicly available to your Stack and Queue-->
+
+## [Link to Node.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/stack_and_queue/Node.java)
+
+## [Link to Queue.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/stack_and_queue/Queue.java)
+
+## [Link to Stack.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/stack_and_queue/Stack.java)
