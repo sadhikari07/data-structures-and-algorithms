@@ -3,38 +3,48 @@ package java401_code_challenges.fifoAnimalShelter;
 import java401_code_challenges.stack_and_queue.Queue;
 
 public class AnimalShelter {
+    public Queue<Dog> dogQueue;
+    public Queue<Cat> catQueue;
 
+    public AnimalShelter(){
+        dogQueue = new Queue<>();
+        catQueue = new Queue<>();
+
+    }
+
+
+    // Animal class
     public static class Animal{
         String animalType;
     }
 
-
-    public static class dog extends Animal{
-        dog(){
+    //Dog class
+    public static class Dog extends Animal{
+        Dog(){
           animalType = "dog";
         }
     }
 
-    public static class cat extends Animal{
-        cat(){
+    //Cat class
+    public static class Cat extends Animal{
+        Cat(){
             animalType = "cat";
         }
     }
-    public static Queue<dog> dogQueue = new Queue<>();
-    public static Queue<cat> catQueue = new Queue<>();
 
-    public static void enqueueAnimal(Animal animal){
+
+    public void enqueueAnimal(Animal animal){
 
         if(animal.animalType == "dog"){
-            dogQueue.enqueue((dog)animal);
+            dogQueue.enqueue((Dog)animal);
         }
-        if(animal.animalType == "cat"){
-            catQueue.enqueue((cat)animal);
+        else if(animal.animalType == "cat"){
+            catQueue.enqueue((Cat)animal);
         }
 
     }
 
-    public static Animal dequeueAnimal(String animalType){
+    public Animal dequeueAnimal(String animalType){
         Animal animalToBeReturned = null;
             if(animalType == "dog"){
                 if(dogQueue.peek()==null){
@@ -43,21 +53,19 @@ public class AnimalShelter {
                 }
                 animalToBeReturned = dogQueue.dequeue();
             }
-        else if(animalType == "cat"){
-            if(catQueue.peek()==null){
-                System.out.println("Cannot remove from where there is nothing.");
+            else if(animalType == "cat"){
+                if(catQueue.peek()==null){
+                    System.out.println("Cannot remove from where there is nothing.");
+                    return null;
+                }
+                animalToBeReturned = catQueue.dequeue();
+            }
+            else{
+                System.out.println("Can only return a dog or a cat.");
                 return null;
             }
-            animalToBeReturned = catQueue.dequeue();
-        }
-        else{
-            System.out.println("Can only return a dog or a cat.");
-            return null;
-        }
         return animalToBeReturned;
     }
-
-
 }
 
 
