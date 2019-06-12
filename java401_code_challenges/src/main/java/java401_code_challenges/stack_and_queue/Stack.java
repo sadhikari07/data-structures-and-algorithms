@@ -1,16 +1,16 @@
 package java401_code_challenges.stack_and_queue;
 
-public class Stack {
+public class Stack<T> {
 
-   public Node top;
+   public Node<T> top;
 
 
   public Stack(){
       this.top = null;
   }
 
-  public void push(int value){
-      Node newNode = new Node(value);
+  public void push(T value){
+      Node<T> newNode = new Node(value);
       if (newNode == null){
           System.out.println("Cannot insert null.");
           return;
@@ -20,18 +20,18 @@ public class Stack {
       top = newNode;
   }
 
-  public Integer pop(){
+  public T pop(){
       if (top == null){
           System.out.println("Nothing on the stack to return.");
           return null;
       }
-      int topValue = top.value;
+      T topValue = top.value;
       top = top.next;
       return topValue;
   }
 
 
-    public Integer peek(){
+    public T peek(){
       if (top == null){
           System.out.println("Cannot peek into the thing that doesn't exist.");
           return null;

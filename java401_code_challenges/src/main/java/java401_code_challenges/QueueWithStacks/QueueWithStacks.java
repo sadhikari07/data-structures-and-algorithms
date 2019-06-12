@@ -3,20 +3,20 @@ package java401_code_challenges.QueueWithStacks;
 
 import java401_code_challenges.stack_and_queue.Stack;
 
-public class QueueWithStacks {
+public class QueueWithStacks<T> {
 
-    public Stack stack1 = new Stack();
-    public Stack stack2 = new Stack();
+    public Stack<T> stack1 = new Stack();
+    public Stack<T> stack2 = new Stack();
 
-    public void enqueue(int value){
+    public void enqueue(T value){
         stack1.push(value);
     }
 
-    public int dequeue(){
+    public T dequeue(){
         while(stack1.peek()!=null){
             stack2.push(stack1.pop());
         }
-        int dequeuedItem = stack2.pop();
+        T dequeuedItem = stack2.pop();
         while(stack2.peek()!=null){
             stack1.push(stack2.pop());
         }
