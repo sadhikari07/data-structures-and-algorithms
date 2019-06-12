@@ -10,8 +10,7 @@ public class QueueWithStacksTest {
     public void testEnqueInsert() {
         QueueWithStacks newQueue = new QueueWithStacks();
         newQueue.enqueue(1);
-        int expectedOutput = newQueue.stack1.peek();
-        assertEquals("The front item inserted should have value 1.", 1, expectedOutput);
+        assertEquals("The front item inserted should have value 1.", 1, newQueue.stack1.peek());
     }
 
 
@@ -22,8 +21,7 @@ public class QueueWithStacksTest {
         newQueue.enqueue(20);
         newQueue.enqueue(30);
         newQueue.enqueue(40);
-        int dequedItem = newQueue.dequeue();
-        assertEquals("The item dequed should be the first item that was on the queue.", dequedItem, 10 );
+        assertEquals("The item dequed should be the first item that was on the queue.", newQueue.dequeue(), 10 );
     }
 
 
@@ -55,4 +53,15 @@ public class QueueWithStacksTest {
         }
         assertEquals("There should be 4 items in the queue.", itemCounter, 4);
     }
+
+    @Test
+    public void testEnqueMultipleInsertFirstItem() {
+        QueueWithStacks newQueue = new QueueWithStacks();
+        newQueue.enqueue(-10);
+        newQueue.enqueue(-20);
+        newQueue.enqueue(-30);
+        newQueue.enqueue(-40);
+        assertEquals("There should be 4 items in the queue.", newQueue.stack1.peek(), -40);
+    }
+
 }

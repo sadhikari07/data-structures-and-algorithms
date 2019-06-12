@@ -60,13 +60,11 @@ public class Stack_and_queueTest {
 
     @Test
     public void testPeekStack() {
-        Stack classUnderTest = new Stack();
         Stack newStack = new Stack();
         newStack.push(0);
         newStack.push(1);
         newStack.push(2);
-        int expectedOutcome = newStack.peek();
-        assertEquals("Peeked itm should be last item inserted.", expectedOutcome, 2);
+        assertEquals("Peeked itm should be last item inserted.", newStack.peek(), 2);
     }
 
     @Test
@@ -105,8 +103,7 @@ public class Stack_and_queueTest {
         newQueue.enqueue(2);
         newQueue.enqueue(3);
         newQueue.enqueue(4);
-        int dequedItem = newQueue.dequeue();
-        assertEquals("The item dequed should be the first item that was on the queue.", dequedItem, 1 );
+        assertEquals("The item dequed should be the first item that was on the queue.", newQueue.dequeue(), 1 );
     }
 
     @Test
@@ -116,8 +113,7 @@ public class Stack_and_queueTest {
         newQueue.enqueue(21);
         newQueue.enqueue(31);
         newQueue.enqueue(41);
-        int peekedItem = newQueue.peek();
-        assertEquals("The item dequed should be the first item that was on the queue.", peekedItem, 11 );
+        assertEquals("The item dequed should be the first item that was on the queue.", newQueue.peek(), 11 );
     }
 
     @Test

@@ -2,10 +2,10 @@ package java401_code_challenges.stack_and_queue;
 
 import java.util.EmptyStackException;
 
-public class Queue {
+public class Queue<T> {
 
-    public Node front;
-    public Node back;
+    public Node<T> front;
+    public Node<T> back;
 
 
     public Queue(){
@@ -13,8 +13,8 @@ public class Queue {
         this.back = null;
     }
 
-    public void enqueue(int value){
-        Node newNode = new Node(value);
+    public void enqueue(T value){
+        Node<T> newNode = new Node(value);
         newNode.value = value;
 
         if(this.front == null){
@@ -25,18 +25,17 @@ public class Queue {
         this.back = newNode;
     }
 
-    public int dequeue(){
+    public T dequeue(){
         if(this.front == null){
             System.out.println("Nothing in the queue to return");
-            return -1;
         }
 
-        int frontValue = front.value;
+        T frontValue = this.front.value;
         front = front.next;
         return frontValue;
     }
 
-    public int peek(){
+    public T peek(){
         return this.front.value;
     }
 
