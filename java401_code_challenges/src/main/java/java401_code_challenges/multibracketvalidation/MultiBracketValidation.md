@@ -46,4 +46,4 @@ Avialable for MultiBracketValidation:
 
 
 ## Solution
-![Linked list insertion](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/mergeLists.jpg)
+![Multi bracket validation](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/multiBracketValidation.jpg)
