@@ -11,7 +11,6 @@ public class AnimalShelterTest {
     public AnimalShelter enqueueDogs(){
         AnimalShelter thisAnimalShelter = new AnimalShelter();
         AnimalShelter.Dog newDog = new AnimalShelter.Dog();
-        AnimalShelter.Dog newDog0 = new AnimalShelter.Dog();
         AnimalShelter.Dog newDog1 = new AnimalShelter.Dog();
         AnimalShelter.Dog newDog2 = new AnimalShelter.Dog();
         AnimalShelter.Dog newDog3 = new AnimalShelter.Dog();
