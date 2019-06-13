@@ -40,9 +40,10 @@ Avialable for MultiBracketValidation:
 
 
 
-## [Link to AnimalShelter.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/stack_and_queue/Node.java)
+## [Link to MultiBracketValidation.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/multibracketvalidation/MultiBracketValidation.java)
 
-## [Link to AnimalShelterTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/stack_and_queue/Queue.java)
+## [Link to MultiBracketValidationTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/multibracketvalidation/MultiBracketValidationTest.java)
 
 
-## [Solution]()
+## Solution
+![Linked list insertion](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/mergeLists.jpg)
