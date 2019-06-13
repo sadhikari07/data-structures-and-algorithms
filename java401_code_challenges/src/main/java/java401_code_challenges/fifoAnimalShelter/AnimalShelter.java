@@ -46,14 +46,14 @@ public class AnimalShelter {
 
     public Animal dequeueAnimal(String animalType){
         Animal animalToBeReturned = null;
-            if(animalType == "dog"){
+            if(animalType.equals("dog") ){
                 if(dogQueue.peek()==null){
                     System.out.println("Cannot remove from where there is nothing.");
                     return null;
                 }
                 animalToBeReturned = dogQueue.dequeue();
             }
-            else if(animalType == "cat"){
+            else if(animalType.equals("cat")){
                 if(catQueue.peek()==null){
                     System.out.println("Cannot remove from where there is nothing.");
                     return null;
