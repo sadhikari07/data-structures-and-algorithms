@@ -98,18 +98,20 @@ contains: accepts a value, and returns a boolean indicating whether or not the v
 
 
 
-## [Link to Node.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/stack_and_queue/Node.java)
+## [Link to Node.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/tree/Node.java)
 
-## [Link to BinaySearch.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/stack_and_queue/Queue.java)
+## [Link to BinaySearchTree.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/tree/BinarySearchTree.java)
 
-## [Link to BinaryTree.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/stack_and_queue/Stack.java)
+## [Link to BinaryTree.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/tree/BinaryTree.java)
 
-## [Link to TreeTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/stack_and_queue/Stack_and_queueTest.java)
+## [Link to TreeTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/TreeTest/TreeTest.java)
 
 
 
 Refernces used in this assignment:
 
 //https://www.baeldung.com/java-binary-tree
+
 //https://www.geeksforgeeks.org/dfs-traversal-of-a-tree-using-recursion/
+
 //https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
