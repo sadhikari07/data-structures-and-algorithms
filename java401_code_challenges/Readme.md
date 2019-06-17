@@ -17,3 +17,5 @@
 ## [Readme for Animal Shelter FIFO](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/fifoAnimalShelter/animalshelter.md)
 
 ## [Readme for multi bracket validation](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/multibracketvalidation/MultiBracketValidation.md)
+
+## [Readme for Binary tree and BST implementation](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/tree/tree.md)
