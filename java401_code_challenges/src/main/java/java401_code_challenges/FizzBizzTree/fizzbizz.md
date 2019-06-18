@@ -22,7 +22,7 @@ For implementing FizzBuzzTree:
     If any of those conditions were met, the value of the node was replaced with either Fizz, Buzz or FizzBuzz.
     Recursion was used to traverse through the nodes and tree with replaced values were returned.
 
-  The big O for time for this approach is O(n) and space is O(n).
+  The big O for time for this approach is O(n) and space is O(1).
 
 
 ## [Link to FizzBizz.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/FizzBizzTree/FizzBuzzTree.java)
