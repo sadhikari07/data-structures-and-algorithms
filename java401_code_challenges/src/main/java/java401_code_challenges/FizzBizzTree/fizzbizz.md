@@ -25,11 +25,11 @@ For implementing FizzBuzzTree:
   The big O for time for this approach is O(n) and space is O(n).
 
 
-## [Link to FizzBuzz.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/stack_and_queue/Node.java)
+## [Link to FizzBizz.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/FizzBizzTree/FizzBuzzTree.java)
 
-## [Link to FizzBuzzTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/stack_and_queue/Queue.java)
+## [Link to FizzBizzTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/fizzBizzTree/FizzBizzTreeTest.java)
 
 
 ## Solution
-![FizzBizz Challenge](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/mergeLists.jpg)
+![FizzBizz Challenge](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/fizzBizz.jpg)
 
