@@ -14,7 +14,7 @@ public class FizzBuzzTree {
 
             else {
                     if((Integer) current.value%3 == 0 && (Integer) current.value%5 != 0){
-                    current.value = "Fizz";
+                        current.value = "Fizz";
                     }
 
                     else if((Integer) current.value%5 == 0 && (Integer) current.value%3 != 0) {
@@ -25,15 +25,15 @@ public class FizzBuzzTree {
                         current.value = "FizzBuzz";
                     }
 
-                    if(current.rightChild != null){
-                        current = current.rightChild;
-                        fizzerBizzer(current);
+                    if(current.leftChild != null){
+                        fizzerBizzer(current.leftChild);
                     }
 
-                    if(current.leftChild != null){
-                        current = current.leftChild;
-                        fizzerBizzer(current);
+
+                    if(current.rightChild != null){
+                        fizzerBizzer(current.rightChild);
                     }
+
             }
 
         }
@@ -41,7 +41,7 @@ public class FizzBuzzTree {
     public static void fizzBizz(BinaryTree tree){
 
             fizzerBizzer(tree.root);
-            System.out.println(tree.root.rightChild.value);
+        System.out.println(tree.inOrder());
     }
 
 
@@ -53,10 +53,8 @@ public class FizzBuzzTree {
         tree.root.rightChild = new Node(3);
         tree.root.leftChild.leftChild = new Node(4);
         tree.root.leftChild.rightChild = new Node(5);
-        tree.root.leftChild = new Node(20);
-        tree.root.rightChild = new Node(30);
-        tree.root.leftChild.leftChild = new Node(24);
-        tree.root.leftChild.rightChild = new Node(15);
+        tree.root.rightChild.leftChild = new Node(24);
+        tree.root.rightChild.rightChild = new Node(15);
         fizzBizz(tree);
     }
 
