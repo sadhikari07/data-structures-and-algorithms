@@ -39,7 +39,6 @@ public class FizzBuzzTree {
         }
 
     public static void fizzBizz(BinaryTree tree){
-
             fizzerBizzer(tree.root);
         System.out.println(tree.inOrder());
     }
