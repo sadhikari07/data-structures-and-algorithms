@@ -78,15 +78,40 @@ public class BinaryTree {
         return arrayOfInOrder;
     }
 
+
+    public static int findMaximumValue(Node root){
+        int maxValue = (int)root.value;
+        if(root.leftChild!=null){
+            if(maxValue<findMaximumValue(root.leftChild)){
+                maxValue = findMaximumValue(root.leftChild);
+            }
+        }
+        if(root.rightChild!=null) {
+            if (maxValue < findMaximumValue(root.rightChild)) {
+                 maxValue = findMaximumValue(root.rightChild);
+            }
+        }
+        return maxValue;
+    }
+
+    public static int findMax(BinaryTree tree){
+        return findMaximumValue(tree.root);
+    }
+
+
     public static void main(String[] args) {
         BinaryTree tree = new BinaryTree();
         tree.root = new Node(1);
         tree.root.leftChild = new Node(2);
         tree.root.rightChild = new Node(3);
-        tree.root.leftChild.leftChild = new Node(4);
+        tree.root.leftChild.leftChild = new Node(40);
         tree.root.leftChild.rightChild = new Node(5);
-        ArrayList  outputRecieved= tree.inOrder();
-        System.out.println(outputRecieved);
+        tree.root.rightChild = new Node(100);
+//        ArrayList  outputRecieved= tree.inOrder();
+//        System.out.println(outputRecieved);
+
+        System.out.println(findMax(tree));
+
     }
 }
 

@@ -7,6 +7,7 @@ import org.junit.Test;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
+import static java401_code_challenges.tree.BinaryTree.findMax;
 import static org.junit.Assert.*;
 
 
@@ -85,5 +86,65 @@ public class TreeTest {
         }
     }
 
+    @Test
+    public void testFindMaximumValueAtLeft(){
+        BinaryTree tree = new BinaryTree();
+        tree.root = new Node(1);
+        tree.root.leftChild = new Node(2);
+        tree.root.rightChild = new Node(3);
+        tree.root.leftChild.leftChild = new Node(4);
+        tree.root.leftChild.rightChild = new Node(5);
+        int expectedOutput = 5;
+
+        assertEquals("Maximum value should be 5.", expectedOutput, findMax(tree));
+    }
+
+    @Test
+    public void testFindMaximumValueAtRoot(){
+        BinaryTree tree = new BinaryTree();
+        tree.root = new Node(100);
+        tree.root.leftChild = new Node(2);
+        tree.root.rightChild = new Node(3);
+        tree.root.leftChild.leftChild = new Node(4);
+        tree.root.leftChild.rightChild = new Node(5);
+        int expectedOutput = 100;
+        assertEquals("Maximum value should be 100.", expectedOutput, findMax(tree));
+    }
+
+    @Test
+    public void testFindMaximumValueAtRight(){
+        BinaryTree tree = new BinaryTree();
+        tree.root = new Node(1);
+        tree.root.leftChild = new Node(2);
+        tree.root.rightChild = new Node(30);
+        tree.root.leftChild.leftChild = new Node(4);
+        tree.root.leftChild.rightChild = new Node(5);
+        int expectedOutput = 30;
+        assertEquals("Maximum value should be 100.", expectedOutput, findMax(tree));
+    }
+
+    @Test
+    public void testFindMaximumValueRepeated(){
+        BinaryTree tree = new BinaryTree();
+        tree.root = new Node(1);
+        tree.root.leftChild = new Node(2);
+        tree.root.rightChild = new Node(30);
+        tree.root.leftChild.leftChild = new Node(4);
+        tree.root.leftChild.rightChild = new Node(30);
+        int expectedOutput = 30;
+        assertEquals("Maximum value should be 100.", expectedOutput, findMax(tree));
+    }
+
+    @Test
+    public void testFindMaximumValueBetweenNegatives(){
+        BinaryTree tree = new BinaryTree();
+        tree.root = new Node(-1);
+        tree.root.leftChild = new Node(-2);
+        tree.root.rightChild = new Node(-30);
+        tree.root.leftChild.leftChild = new Node(-4);
+        tree.root.leftChild.rightChild = new Node(-30);
+        int expectedOutput = -1;
+        assertEquals("Maximum value should be 100.", expectedOutput, findMax(tree));
+    }
 
 }
