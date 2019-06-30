@@ -40,8 +40,6 @@ Students will understand the background of the insertion sort method, go through
 ## Pseudocode
 ![Pseudo Code](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/insertSortPseudoCode.png)
 
-
-
 Readings and References
 
 Video: https://www.youtube.com/watch?v=lCDZ0IprFw4
