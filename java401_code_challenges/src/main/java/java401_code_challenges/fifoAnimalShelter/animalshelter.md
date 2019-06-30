@@ -53,9 +53,9 @@ Avialable for enqueueAnimal and deQueueAnimal:
 
 
 
-## [Link to AnimalShelter.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/stack_and_queue/Node.java)
+## [Link to AnimalShelter.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/fifoAnimalShelter/AnimalShelter.java)
 
-## [Link to AnimalShelterTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/stack_and_queue/Queue.java)
+## [Link to AnimalShelterTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/fifoAnimalShelter/AnimalShelterTest.java)
 
+![Solution](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/animalShelter.jpg)
 
-## [Solution]()

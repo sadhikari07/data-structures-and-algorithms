@@ -14,19 +14,6 @@ Instantiate these Stack objects in your PseudoQueue constructor.
 ## Structure and Testing
 Utilize the Single-responsibility principle: any methods you write should be clean, reusable, abstract component parts to the whole challenge.
 
-Example
-enqueue(value)
-
-Input	           Args	Output
-[10]->[15]->[20]	5	[5]->[10]->[15]->[20]
- 	                5	[5]
-
-dequeue()
-
-Input	                Output	Internal State
-[5]->[10]->[15]->[20]	20	    [5]->[10]->[15])
-[5]->[10]->[15]	        15	    [5]->[10]
-
 
 ## Approach & Efficiency
 
@@ -53,9 +40,9 @@ This gave me updated queue with the dequeued item off the queue.
 
 
 ## Solution
-![Linked list insertion](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/mergeLists.jpg)
+![Linked list insertion](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/queueueWithStackWhiteBoard.jpg)
 
 
-## [Link to linkedList.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/linkedlist/LinkedList.java)
+## [Link to queuewithstacks.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/QueueWithStacks/QueueWithStacks.java)
 
-## [Link to linkedListTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/linkedlist/LinkedListTest.java)
+## [Link to QueueWithStacksTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/QueueWithStacks/QueueWithStacksTest.java)
