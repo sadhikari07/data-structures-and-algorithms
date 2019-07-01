@@ -44,7 +44,7 @@ The following tests were performed to verify the functionality of the function:
 ## [Link to Lecture-Notes.md](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/insertion_sort/LECTURE-NOTES.md)
 
 ## Solution:
-![Binary Search_whiteboard](../assets/insertionSortWhiteBoard.jpg)
+![Binary Search_whiteboard](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/insertionSortWhiteBoard.jpg)
 
 References used in this assignment:
 * http://www.java2novice.com/java-sorting-algorithms/insertion-sort/
