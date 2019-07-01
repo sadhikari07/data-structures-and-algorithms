@@ -38,16 +38,11 @@ The following tests were performed to verify the functionality of the function:
 
 
 
-## [Link to Insertionsort.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/tree/BinaryTree.java)
+## [Link to Insertionsort.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/insertion_sort/InsertionSort.java)
 
-## [Link to InsertionSortTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/TreeTest/TreeTest.java)
+## [Link to InsertionSortTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/insertion_sort/InsertionSortTest.java)
 
-## [Link to Lecture-Notes.md](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/TreeTest/TreeTest.java)
-
-
-## Solution
-![Linked list insertion](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/maxValueTree.jpg)
-
+## [Link to Lecture-Notes.md](hhttps://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/insertion_sort/LECTURE-NOTES.md)
 
 References used in this assignment:
 * http://www.java2novice.com/java-sorting-algorithms/insertion-sort/
