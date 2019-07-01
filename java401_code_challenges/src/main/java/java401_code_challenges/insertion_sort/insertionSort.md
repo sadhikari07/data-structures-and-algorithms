@@ -35,14 +35,16 @@ The following tests were performed to verify the functionality of the function:
  Finally I returned the sorted array as output.
 
  The big O for time for this approach is O(n^2) and space is O(1).
-
-
+ 
 
 ## [Link to Insertionsort.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/insertion_sort/InsertionSort.java)
 
 ## [Link to InsertionSortTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/insertion_sort/InsertionSortTest.java)
 
 ## [Link to Lecture-Notes.md](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/insertion_sort/LECTURE-NOTES.md)
+
+## Solution:
+![Binary Search_whiteboard](../assets/insertionSortWhiteBoard.jpg)
 
 References used in this assignment:
 * http://www.java2novice.com/java-sorting-algorithms/insertion-sort/
