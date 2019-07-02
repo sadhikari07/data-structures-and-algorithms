@@ -49,7 +49,7 @@ The following tests were performed to verify the functionality of the function:
 
 
 ## Solution
-![Linked list insertion](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/maxValueTree.jpg)
+![Linked list insertion](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/mergeSortWhiteBoard.jpg)
 
 
 ## References used in this assignment:
