@@ -49,7 +49,9 @@ Students will understand the background of the merge sort method, go through the
 Readings and References
 
 Video: https://www.youtube.com/watch?v=iMT7gTPpaqw
+
 Read: https://howtodoinjava.com/algorithm/merge-sort-java-example/
+
 Article: https://www.java67.com/2018/03/mergesort-in-java-algorithm-example-and.html
 
 References:
