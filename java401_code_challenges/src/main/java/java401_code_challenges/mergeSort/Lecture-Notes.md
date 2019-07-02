@@ -42,7 +42,7 @@ Students will understand the background of the merge sort method, go through the
 
 
 ## Pseudocode
-![Pseudo Code](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/mergeSortPseudoCode.png)
+![Pseudo Code](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/mergeSortPseudo.png)
 
 Readings and References
 
