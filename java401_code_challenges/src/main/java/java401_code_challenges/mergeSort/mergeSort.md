@@ -41,11 +41,11 @@ The following tests were performed to verify the functionality of the function:
 
 
 
-## [Link to Mergesort.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/tree/BinaryTree.java)
+## [Link to Mergesort.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/mergeSort/MergeSort.java)
 
-## [Link to MergeSortTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/TreeTest/TreeTest.java)
+## [Link to MergeSortTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/mergeSort/MergeSortTest.java)
 
-## [Link to Lecture-Notes.md](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/TreeTest/TreeTest.java)
+## [Link to Lecture-Notes.md](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/mergeSort/Lecture-Notes.md)
 
 
 ## Solution
@@ -58,4 +58,5 @@ The following tests were performed to verify the functionality of the function:
 * https://howtodoinjava.com/algorithm/merge-sort-java-example/
 * https://www.java67.com/2018/03/mergesort-in-java-algorithm-example-and.html
 * https://www.youtube.com/watch?v=iMT7gTPpaqw
+* https://canvas.instructure.com/courses/1597100/assignments/11252310
 
