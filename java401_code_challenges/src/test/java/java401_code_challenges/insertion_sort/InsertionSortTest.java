@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 
 public class InsertionSortTest {
 
-    @Test
+     @Test
     public void insertionSortRegularArray() {
         InsertionSort classForTesting = new InsertionSort();
         int[] arr =  {5, 7, 2, 8, 1, 3};
