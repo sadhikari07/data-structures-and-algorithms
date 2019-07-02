@@ -1,4 +1,4 @@
-## Lecture Notes: Insert Sort
+## Lecture Notes: Merge Sort
 Merge sort is a “divide and conquer” algorithm wherein we first divide the problem into subproblems.
 When the solutions for the subproblems are ready, we combine them together to get the final solution to the problem.
 
