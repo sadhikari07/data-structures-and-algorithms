@@ -24,8 +24,8 @@ Students will understand the background of the merge sort method, go through the
 ## Lecture Flow
 * Merge sort is an algorithm that sorts any given array of integers by divide and conquer method..
 * The algorithm can be described as the following 2 step process:
-- Divide: In this step, we divide the input array into 2 halves, the pivot being the midpoint of the array. This step is carried out recursively for all the half arrays until there are no more half arrays to divide.
-- Conquer: In this step, we sort and merge the divided arrays from bottom to top and get the sorted array.
+-- Divide: In this step, we divide the input array into 2 halves, the pivot being the midpoint of the array. This step is carried out recursively for all the half arrays until there are no more half arrays to divide.
+-- Conquer: In this step, we sort and merge the divided arrays from bottom to top and get the sorted array.
 
 
 ## Diagram
