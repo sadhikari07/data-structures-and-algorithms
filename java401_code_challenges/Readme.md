@@ -24,10 +24,12 @@
 
 ## [Readme for breadth first traversal](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/breadthFirst/breadthFirst.md)
 
-## [Readme for maximum value of tree](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/tree/maximumValue.md)
+## [Readme for maximum value of tree](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/quickSort/quickSort.md)
 
 ## [Readme for Insertion Sort](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/insertion_sort/insertionSort.md)
 
 ## [Readme for Merge Sort](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/mergeSort/mergeSort.md)
+
+## [Readme for Quick Sort](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/mergeSort/mergeSort.md)
 
 
