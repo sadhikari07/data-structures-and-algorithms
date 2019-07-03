@@ -30,6 +30,6 @@
 
 ## [Readme for Merge Sort](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/mergeSort/mergeSort.md)
 
-## [Readme for Quick Sort](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/mergeSort/mergeSort.md)
+## [Readme for Quick Sort](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/quickSort/quickSort.md)
 
 
