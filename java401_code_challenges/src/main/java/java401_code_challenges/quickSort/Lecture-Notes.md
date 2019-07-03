@@ -37,10 +37,12 @@ Steps to implement Quick sort:
 ## Pseudocode
 ![Pseudo Code](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/quickSortPseudoCode.png)
 
-Readings and References
+## Readings and References
 
 Video: https://www.youtube.com/watch?v=Fiot5yuwPAg
+
 Read: http://www.java2novice.com/java-sorting-algorithms/quick-sort/
+
 Article: https://www.tutorialspoint.com/data_structures_algorithms/quick_sort_algorithm.html
 
 References:
