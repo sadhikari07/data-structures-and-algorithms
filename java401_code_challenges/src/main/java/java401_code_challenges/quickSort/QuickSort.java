@@ -13,7 +13,6 @@ public class QuickSort {
     }
 
     public static int Partition(int[] arr, int left, int right){
-
         int pivot = arr[right];
         int low = left - 1;
         for(int i = left; i<right; i++){
@@ -32,5 +31,4 @@ public class QuickSort {
         arr[i] = arr[low];
         arr[low] = temp;
     }
-
 }
