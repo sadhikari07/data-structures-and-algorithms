@@ -51,9 +51,9 @@ I created get method that took in a string key and returns the value assosiated 
 - getHash: This method takes in a string key and returns an integer which is the sum of the ascii value of each characters of the string provided.
 
 
-## [Link to HashTable.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/linkedlist/LinkedList.java)
+## [Link to HashTable.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/hashtable/HashTable.java)
 
-## [Link to HashTableTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/linkedlist/LinkedListTest.java)
+## [Link to HashTableTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/hashtable/HashTableTest.java)
 
 
 ## References for code and readme:
