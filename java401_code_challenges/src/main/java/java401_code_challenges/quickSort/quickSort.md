@@ -40,11 +40,11 @@ The complexity of quick sort in the average case is Θ(n log(n)) and in the wors
 
 
 
-## [Link to QuickSort.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/tree/BinaryTree.java)
+## [Link to QuickSort.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/quickSort/QuickSort.java)
 
-## [Link to QuickSortTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/TreeTest/TreeTest.java)
+## [Link to QuickSortTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/quickSort/QuickSortTest.java)
 
-## [Link to Lecture-Notes.md](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/TreeTest/TreeTest.java)
+## [Link to Lecture-Notes.md](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/quickSort/Lecture-Notes.md)
 
 
 ## Solution

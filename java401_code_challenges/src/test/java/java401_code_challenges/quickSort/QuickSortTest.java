@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class QuickSortTest {
 
     @Test
-    public void mergeSortRegularArray() {
+    public void quickSortRegularArray() {
         QuickSort classForTesting = new QuickSort();
         int[] arr =  {5, 7, 2, 8, 1, 3};
         int[] expectedOutput = {1, 2, 3, 5, 7, 8};
@@ -16,7 +16,7 @@ public class QuickSortTest {
     }
 
     @Test
-    public void mergeSortWithSameNumbersTwice() {
+    public void quickSortWithSameNumbersTwice() {
         QuickSort classForTesting = new QuickSort();
         int[] arr = {2, 7, 2, 2, 1, 3};
         int[] expectedOutput = {1, 2, 2, 2, 3, 7};
@@ -25,7 +25,7 @@ public class QuickSortTest {
     }
 
     @Test
-    public void mergeSortWithAllSameNumbers() {
+    public void quickSortWithAllSameNumbers() {
         QuickSort classForTesting = new QuickSort();
         int[] arr = {1, 1, 1, 1};
         int[] expectedOutput = {1, 1, 1, 1};
@@ -34,7 +34,7 @@ public class QuickSortTest {
     }
 
     @Test
-    public void imergeSortWithNegativeNumbers() {
+    public void quickSortWithNegativeNumbers() {
         QuickSort classForTesting = new QuickSort();
         int[] arr = {-5, -2, -100, -10, -1};
         int[] expectedOutput = {-100, -10, -5, -2, -1};
@@ -43,7 +43,7 @@ public class QuickSortTest {
     }
 
     @Test
-    public void mergeSortWithEmptyArray() {
+    public void quickSortWithEmptyArray() {
         QuickSort classForTesting = new QuickSort();
         int[] arr = {};
         int[] expectedOutput = {};
@@ -52,7 +52,7 @@ public class QuickSortTest {
     }
 
     @Test
-    public void mergeSortWithNegativeAndPositiveNumbers() {
+    public void quickSortWithNegativeAndPositiveNumbers() {
         QuickSort classForTesting = new QuickSort();
         int[] arr = {100, 10, -100, -10, -1, 1};
         int[] expectedOutput = {-100, -10, -1, 1, 10, 100};
@@ -61,7 +61,7 @@ public class QuickSortTest {
     }
 
     @Test
-    public void mergeSortSortedArray() {
+    public void quickSortSortedArray() {
         QuickSort classForTesting = new QuickSort();
         int[] arr = {1, 2, 3, 4};
         int[] expectedOutput = {1, 2, 3, 4};
@@ -70,7 +70,7 @@ public class QuickSortTest {
     }
 
     @Test
-    public void mergeSorArrayWithOneItem() {
+    public void quickSorArrayWithOneItem() {
         QuickSort classForTesting = new QuickSort();
         int[] arr = {1};
         int[] expectedOutput = {1};

@@ -1,4 +1,4 @@
-## Lecture Notes: Insert Sort
+## Lecture Notes: Merge Sort
 Merge sort is a “divide and conquer” algorithm wherein we first divide the problem into subproblems.
 When the solutions for the subproblems are ready, we combine them together to get the final solution to the problem.
 
@@ -24,8 +24,10 @@ Students will understand the background of the merge sort method, go through the
 ## Lecture Flow
 * Merge sort is an algorithm that sorts any given array of integers by divide and conquer method..
 * The algorithm can be described as the following 2 step process:
-- Divide: In this step, we divide the input array into 2 halves, the pivot being the midpoint of the array. This step is carried out recursively for all the half arrays until there are no more half arrays to divide.
-- Conquer: In this step, we sort and merge the divided arrays from bottom to top and get the sorted array.
+
+-- Divide: In this step, we divide the input array into 2 halves, the pivot being the midpoint of the array. This step is carried out recursively for all the half arrays until there are no more half arrays to divide.
+
+-- Conquer: In this step, we sort and merge the divided arrays from bottom to top and get the sorted array.
 
 
 ## Diagram
@@ -42,12 +44,14 @@ Students will understand the background of the merge sort method, go through the
 
 
 ## Pseudocode
-![Pseudo Code](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/mergeSortPseudoCode.png)
+![Pseudo Code](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/mergeSortPseudo.png)
 
 Readings and References
 
 Video: https://www.youtube.com/watch?v=iMT7gTPpaqw
+
 Read: https://howtodoinjava.com/algorithm/merge-sort-java-example/
+
 Article: https://www.java67.com/2018/03/mergesort-in-java-algorithm-example-and.html
 
 References:
@@ -56,5 +60,6 @@ References:
 * https://howtodoinjava.com/algorithm/merge-sort-java-example/
 * https://www.java67.com/2018/03/mergesort-in-java-algorithm-example-and.html
 * https://www.youtube.com/watch?v=iMT7gTPpaqw
+* https://canvas.instructure.com/courses/1597100/assignments/11252310
 
 
