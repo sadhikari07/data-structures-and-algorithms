@@ -11,7 +11,6 @@ public class HashTable<T>{
         }
     }
 
-
     public void add(String key, T value){
         int index = getHash(key)% numberOfBuckets;
         bucketsArray[index].appendToLinkedList(key, value);
