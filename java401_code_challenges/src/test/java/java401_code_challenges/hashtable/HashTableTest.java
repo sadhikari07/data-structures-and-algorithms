@@ -10,16 +10,16 @@ public class HashTableTest {
     public void testAddsKeySuccesfully() {
         HashTable classUnderTest = new HashTable();
         classUnderTest.add("Item1", 1);
-        int index = classUnderTest.getHash("Item1")%classUnderTest.bucket.length;
-        assertEquals("There should be an item with key Item1 stored", "Item1", classUnderTest.bucket[index].head.key);
+        int index = classUnderTest.getHash("Item1")%classUnderTest.bucketsArray.length;
+        assertEquals("There should be an item with key Item1 stored", "Item1", classUnderTest.bucketsArray[index].head.key);
     }
 
     @Test
     public void testAddsValueSuccesfully() {
         HashTable classUnderTest = new HashTable();
         classUnderTest.add("Item1", 1);
-        int index = classUnderTest.getHash("Item1")%classUnderTest.bucket.length;
-        assertEquals("There should be an item with value of 1 stored", 1, classUnderTest.bucket[index].head.value);
+        int index = classUnderTest.getHash("Item1")%classUnderTest.bucketsArray.length;
+        assertEquals("There should be an item with value of 1 stored", 1, classUnderTest.bucketsArray[index].head.value);
     }
 
     @Test
@@ -45,9 +45,9 @@ public class HashTableTest {
         classUnderTest.add("((", 2);
         classUnderTest.add("Item3", 3);
         classUnderTest.add("Item3", 4);
-        int index = classUnderTest.getHash("((")%classUnderTest.bucket.length;
-        assertEquals("Collision should be handled properly.", 1, classUnderTest.bucket[index].head.value);
-        assertEquals("Collision should be handled properly.", 2, classUnderTest.bucket[index].head.next.value);
+        int index = classUnderTest.getHash("((")%classUnderTest.bucketsArray.length;
+        assertEquals("Collision should be handled properly.", 1, classUnderTest.bucketsArray[index].head.value);
+        assertEquals("Collision should be handled properly.", 2, classUnderTest.bucketsArray[index].head.next.value);
     }
 
     @Test
