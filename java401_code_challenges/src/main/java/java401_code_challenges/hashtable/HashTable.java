@@ -2,8 +2,7 @@ package java401_code_challenges.hashtable;
 
 public class HashTable<T>{
 
-    private int numberOfBuckets = 100;
-
+    public int numberOfBuckets = 100;
     public Linkedlist[] bucketsArray = new Linkedlist[numberOfBuckets];
 
     public HashTable(){
@@ -21,7 +20,8 @@ public class HashTable<T>{
 
     public boolean contains(String key){
         int hashedValue =getHash(key)% numberOfBuckets;
-        return bucketsArray[hashedValue].includes(key);
+        boolean result =  bucketsArray[hashedValue].includes(key);
+        return result;
     }
 
     public T get(String key){
@@ -34,12 +34,10 @@ public class HashTable<T>{
     public int getHash(String key){
         int sumAscii = 0;
         for(int i = 0; i<key.length(); i++){
-
             sumAscii = (int)key.charAt(i) + sumAscii;
         }
         return sumAscii;
     }
-
 }
 
 

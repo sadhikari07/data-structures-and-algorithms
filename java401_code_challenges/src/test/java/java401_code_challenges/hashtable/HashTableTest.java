@@ -68,6 +68,4 @@ public class HashTableTest {
         classUnderTest.add("((", 2);
         assertEquals("Hashed codes for P and (( should be same", classUnderTest.getHash("P"), classUnderTest.getHash("(("));
     }
-
-
 }
