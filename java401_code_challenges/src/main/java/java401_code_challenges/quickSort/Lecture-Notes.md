@@ -19,7 +19,7 @@ Steps to implement Quick sort:
  - Recursively apply the above steps to the sub-list of elements with smaller values and separately the sub-list of elements with greater values.
 
 ## Diagram
-![Diagram](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/mquickSortVisual.png)
+![Diagram](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/quickSortVisual.png)
 
 ## Algorithm
 * Choose the highest index value has pivot
@@ -37,10 +37,12 @@ Steps to implement Quick sort:
 ## Pseudocode
 ![Pseudo Code](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/quickSortPseudoCode.png)
 
-Readings and References
+## Readings and References
 
 Video: https://www.youtube.com/watch?v=Fiot5yuwPAg
+
 Read: http://www.java2novice.com/java-sorting-algorithms/quick-sort/
+
 Article: https://www.tutorialspoint.com/data_structures_algorithms/quick_sort_algorithm.html
 
 References:

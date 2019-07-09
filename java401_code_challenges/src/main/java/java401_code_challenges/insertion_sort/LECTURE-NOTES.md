@@ -43,7 +43,9 @@ Students will understand the background of the insertion sort method, go through
 Readings and References
 
 Video: https://www.youtube.com/watch?v=lCDZ0IprFw4
+
 Read: http://www.java2novice.com/java-sorting-algorithms/insertion-sort/
+
 Article: https://www.guru99.com/insertion-sort-java.html
 
 References:
