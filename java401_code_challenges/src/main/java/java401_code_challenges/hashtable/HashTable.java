@@ -2,31 +2,31 @@ package java401_code_challenges.hashtable;
 
 public class HashTable<T>{
 
-    private int bucketSize = 100;
+    private int numberOfBuckets = 100;
 
-    public Linkedlist[] bucket = new Linkedlist[bucketSize];
+    public Linkedlist[] bucketsArray = new Linkedlist[numberOfBuckets];
 
     public HashTable(){
-        for(int i = 0; i < bucket.length; i++){
-            bucket[i] = new Linkedlist();
+        for(int i = 0; i < bucketsArray.length; i++){
+            bucketsArray[i] = new Linkedlist();
         }
     }
 
 
     public void add(String key, T value){
-        int index = getHash(key)% bucketSize;
-        bucket[index].appendToLinkedList(key, value);
+        int index = getHash(key)% numberOfBuckets;
+        bucketsArray[index].appendToLinkedList(key, value);
     }
 
 
     public boolean contains(String key){
-        int hashedValue =getHash(key)%bucketSize;
-        return bucket[hashedValue].includes(key);
+        int hashedValue =getHash(key)% numberOfBuckets;
+        return bucketsArray[hashedValue].includes(key);
     }
 
     public T get(String key){
-        int hashedValue = getHash(key)%bucketSize;
-        T result = (T) bucket[hashedValue].getvalue(key);
+        int hashedValue = getHash(key)% numberOfBuckets;
+        T result = (T) bucketsArray[hashedValue].getvalue(key);
         return result;
     }
 
