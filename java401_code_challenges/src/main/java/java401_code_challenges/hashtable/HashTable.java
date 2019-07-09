@@ -17,7 +17,6 @@ public class HashTable<T>{
         bucketsArray[index].appendToLinkedList(key, value);
     }
 
-
     public boolean contains(String key){
         int hashedValue =getHash(key)% numberOfBuckets;
         boolean result =  bucketsArray[hashedValue].includes(key);
@@ -29,7 +28,6 @@ public class HashTable<T>{
         T result = (T) bucketsArray[hashedValue].getvalue(key);
         return result;
     }
-
 
     public int getHash(String key){
         int sumAscii = 0;
