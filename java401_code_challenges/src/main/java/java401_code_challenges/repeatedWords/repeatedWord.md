@@ -16,7 +16,7 @@ Find the first repeated word in a book.
 
 ## Solution
 
-![Repeated word](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/repeatedWords.jpg)
+![Repeated word](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/repeatedWord.jpg)
 
 
 ## [Link to RepeatedWord.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/repeatedWords/RepeatedWord.java)
