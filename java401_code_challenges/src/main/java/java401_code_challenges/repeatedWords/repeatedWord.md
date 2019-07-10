@@ -16,12 +16,12 @@ Find the first repeated word in a book.
 
 ## Solution
 
-![Repeated word](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/queueueWithStackWhiteBoard.jpg)
+![Repeated word](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/repeatedWords.jpg)
 
 
-## [Link to RepeatedWord.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/QueueWithStacks/QueueWithStacks.java)
+## [Link to RepeatedWord.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/repeatedWords/RepeatedWord.java)
 
-## [Link to RepeatedWordTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/QueueWithStacks/QueueWithStacksTest.java)
+## [Link to RepeatedWordTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/repeatedWords/RepeatedWordTest.java)
 
 
 ## References:
