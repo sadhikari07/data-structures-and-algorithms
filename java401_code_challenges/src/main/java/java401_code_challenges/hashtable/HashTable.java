@@ -2,7 +2,7 @@ package java401_code_challenges.hashtable;
 
 public class HashTable<T>{
 
-    public int numberOfBuckets = 100;
+    public int numberOfBuckets = 1024;
     public Linkedlist[] bucketsArray = new Linkedlist[numberOfBuckets];
 
     public HashTable(){
@@ -13,7 +13,13 @@ public class HashTable<T>{
 
     public void add(String key, T value){
         int index = getHash(key)% numberOfBuckets;
-        bucketsArray[index].appendToLinkedList(key, value);
+        if(bucketsArray[index].includes(key)){
+            System.out.println("Duplicate key found.");
+            return;
+        }
+        else {
+            bucketsArray[index].appendToLinkedList(key, value);
+        }
     }
 
     public boolean contains(String key){
@@ -34,6 +40,14 @@ public class HashTable<T>{
             sumAscii = (int)key.charAt(i) + sumAscii;
         }
         return sumAscii;
+    }
+
+    public static void main(String[] args) {
+        HashTable classUnderTest = new HashTable();
+        classUnderTest.add("P", 1);
+        classUnderTest.add("((", 2);
+        classUnderTest.add("Item3", 3);
+        System.out.println(classUnderTest.contains("Item3"));
     }
 }
 

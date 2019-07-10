@@ -30,7 +30,7 @@ public class Linkedlist<T> {
         public boolean includes(String keyCheck) {
             Node current = head;
             while (current != null) {
-                if (current.key == keyCheck) {
+                if (current.key.equals(keyCheck) ){
                     return true;
                 }
                 current = current.next;
