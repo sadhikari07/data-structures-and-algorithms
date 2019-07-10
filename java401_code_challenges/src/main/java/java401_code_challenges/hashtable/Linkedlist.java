@@ -3,9 +3,11 @@ package java401_code_challenges.hashtable;
 public class Linkedlist<T> {
 
         public Node head;
+        public Node tail;
 
         public Linkedlist() {
             this.head = null;
+            this.tail = null;
         }
 
         public void appendToLinkedList(String key, T value) {
@@ -13,6 +15,7 @@ public class Linkedlist<T> {
             newNode.next = null;
             if (head == null) {
                 head = newNode;
+                tail = newNode;
                 return;
             }
 
@@ -27,7 +30,7 @@ public class Linkedlist<T> {
         public boolean includes(String keyCheck) {
             Node current = head;
             while (current != null) {
-                if (current.key == keyCheck) {
+                if (current.key.equals(keyCheck) ){
                     return true;
                 }
                 current = current.next;
