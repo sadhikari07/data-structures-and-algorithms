@@ -35,3 +35,5 @@
 ## [Readme for Hash table](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/hashtable/hashTable.md)
 
 ## [Readme for Repeated words](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/repeatedWords/repeatedWord.md)
+
+## [Readme for Repeated words](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/treeIntersection/treeIntersection.md)
