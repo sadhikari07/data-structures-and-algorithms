@@ -17,7 +17,6 @@ public class BinaryTree {
 
     public ArrayList preOrder(Node current){
         if(current == null){
-            System.out.println("Cannot traverse through a tree with nothing in it.");
             return arrayOfPreOrder;
         }
 
@@ -38,7 +37,6 @@ public class BinaryTree {
 
     public ArrayList postOrder(Node current){
         if(current == null){
-            System.out.println("Cannot traverse through a tree with nothing in it.");
             return arrayOfPostOrder;
         }
 
@@ -60,7 +58,6 @@ public class BinaryTree {
 
     public ArrayList inOrder(Node current){
         if(current == null){
-            System.out.println("Cannot traverse through a tree with nothing in it.");
             return arrayOfInOrder;
         }
 
