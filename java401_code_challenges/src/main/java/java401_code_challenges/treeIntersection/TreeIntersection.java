@@ -11,17 +11,30 @@ public class TreeIntersection {
 
       HashTable  newTable = new HashTable();
       ArrayList arrayOfTree1 = tree1.postOrder();
+      HashTable hashTableOfTree1 = new HashTable();
+      HashTable hashTableOfTree2 = new HashTable();
 
       ArrayList arrayOfTree2 = tree2.postOrder();
       ArrayList arrayToReturn = new ArrayList();
 
-      for(int i = 0; i < arrayOfTree1.size(); i++){
-          newTable.add(arrayOfTree1.get(i).toString(), 1);
+
+        for(int i = 0; i < arrayOfTree1.size(); i++){
+            hashTableOfTree1.add(arrayOfTree1.get(i).toString(), 1);
+        }
+
+        for(int j = 0; j < arrayOfTree2.size(); j++){
+            hashTableOfTree2.add(arrayOfTree2.get(j).toString(), 1);
+        }
+
+
+      for(int i = 0; i < hashTableOfTree2.numberOfBuckets; i++){
+          if(hashTableOfTree2.bucketsArray[i].head!=null) {
+              if (hashTableOfTree1.contains(hashTableOfTree2.bucketsArray[i].head.key)) {
+                  newTable.add(hashTableOfTree2.bucketsArray[i].head.key, 1);
+              }
+          }
       }
 
-      for(int i = 0; i < arrayOfTree2.size(); i++){
-            newTable.add(arrayOfTree2.get(i).toString(), 1);
-      }
 
       for(int i = 0; i<newTable.numberOfBuckets; i++){
           if(newTable.bucketsArray[i].head!=null){

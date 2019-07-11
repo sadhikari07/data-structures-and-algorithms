@@ -26,7 +26,7 @@ public class TreeIntersectionTest {
         tree1.root.rightChild = new Node(30);
 
         ArrayList newArr = treeIntersectionSet(tree, tree1);
-        assertEquals("Return should have 5 individual items.", 5, newArr.size());
+        assertEquals("Return should have 5 individual items.", 1, newArr.size());
     }
 
 
@@ -41,7 +41,7 @@ public class TreeIntersectionTest {
         tree1.root = new Node(10);
         tree1.root.leftChild = new Node(2);
         tree1.root.rightChild = new Node(30);
-        int[] expectedContains = {1, 2, 3, 10, 30};
+        int[] expectedContains = {2};
         ArrayList newArr = treeIntersectionSet(tree, tree1);
 
         for(int i = 0; i < expectedContains.length; i++) {
@@ -61,7 +61,7 @@ public class TreeIntersectionTest {
         ArrayList newArr = treeIntersectionSet(tree, tree1);
 
         for(int i = 0; i < expectedContains.length; i++) {
-            assertTrue("Items should be contained in the return.", newArr.contains(expectedContains[i]));
+            assertTrue("There should be no items in the return.", !newArr.contains(expectedContains[i]));
         }
     }
 
@@ -85,23 +85,9 @@ public class TreeIntersectionTest {
         tree1.root.leftChild = new Node(2);
         tree1.root.rightChild = new Node(3);
         ArrayList newArr = treeIntersectionSet(tree, tree1);
-        assertEquals("Return should contain 0 items.", 3, newArr.size());
+        assertEquals("Return should contain 3 items.", 3, newArr.size());
     }
 
-    @Test
-    public void testTreeWithSameItemsOnOneTree() {
-        BinaryTree tree = new BinaryTree();
-        tree.root = new Node(1);
-        tree.root.leftChild = new Node(1);
-        tree.root.rightChild = new Node(1);
-
-        BinaryTree tree1 = new BinaryTree();
-        tree1.root = new Node(10);
-        tree1.root.leftChild = new Node(2);
-        tree1.root.rightChild = new Node(3);
-        ArrayList newArr = treeIntersectionSet(tree, tree1);
-        assertEquals("Return should contain 0 items.", 4, newArr.size());
-    }
 
     @Test
     public void testTreeWithNoSameItems() {
@@ -115,7 +101,7 @@ public class TreeIntersectionTest {
         tree1.root.leftChild = new Node(2);
         tree1.root.rightChild = new Node(3);
         ArrayList newArr = treeIntersectionSet(tree, tree1);
-        assertEquals("Return should contain 0 items.", 6, newArr.size());
+        assertEquals("Return should contain 0 items.", 0, newArr.size());
     }
 
 }
