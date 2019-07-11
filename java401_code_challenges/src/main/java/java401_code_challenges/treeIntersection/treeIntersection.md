@@ -15,12 +15,10 @@ Find common values in 2 binary trees.
 
 ## Solution
 
-![Repeated word](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/queueueWithStackWhiteBoard.jpg)
+![Repeated word](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/hashmapTree.jpg)
 
 
-## [Link to TreeIntersection.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/QueueWithStacks/QueueWithStacks.java)
+## [Link to TreeIntersection.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/treeIntersection/TreeIntersection.java)
 
-## [Link to TreeIntersection.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/QueueWithStacks/QueueWithStacksTest.java)
+## [Link to TreeIntersection.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/treeIntersection/TreeIntersectionTest.java)
 
-
-## References:
