@@ -24,7 +24,7 @@ Implement a simplified LEFT JOIN for 2 Hashmaps.
 
 ## Solution
 
-![Repeated word](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/queueueWithStackWhiteBoard.jpg)
+![Repeated word](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/hashTableLeftJoin.jpg)
 
 
 ## [Link to LeftJoin.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/leftJoin/LeftJoin.java)
