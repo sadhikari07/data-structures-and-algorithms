@@ -2,7 +2,7 @@ package java401_code_challenges.hashtable;
 
 public class HashTable<T>{
 
-    public int numberOfBuckets = 1024;
+    public int numberOfBuckets = 5;
     public Linkedlist[] bucketsArray = new Linkedlist[numberOfBuckets];
 
     public HashTable(){
