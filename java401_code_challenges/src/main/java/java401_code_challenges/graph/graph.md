@@ -77,10 +77,12 @@ This method takes in the two nodes to be connected by the edge.
 - size(): Returns the total number of nodes in the graph.
 
 
-## [Link to Graph.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/hashtable/HashTable.java)
+## [Link to Graph.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/graph/Graph.java)
 
-## [Link to GraphTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/hashtable/HashTableTest.java)
+## [Link to GraphTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/graph/GraphTest.java)
 
 
 ## References:
-Evan (TA)
+- Evan (TA)
+- https://stackoverflow.com/questions/44831436/java-implementing-weighted-graph/44831531
+- https://www.sanfoundry.com/java-program-represent-graph-adjacency-list/
