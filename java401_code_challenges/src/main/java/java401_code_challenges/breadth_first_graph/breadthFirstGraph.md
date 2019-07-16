@@ -23,9 +23,9 @@ For implementing Breadth-first:
     testBreadthFirstWithThirdNode: TTests the items from return of breadth first traversal with three vertices and third input as argument.
 
 
-## [Link to BreadthFirstGraph.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/breadthFirst/BreadthFirst.java)
+## [Link to BreadthFirstGraph.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/breadth_first_graph/BreadthFirstGraph.java)
 
-## [Link to BreadthFirstGraphTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/breadthFirst/BreadthFirstTest.java)
+## [Link to BreadthFirstGraphTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/breadth_first_graph/BreadthFirstGraphTest.java)
 
 
 ## Solution
@@ -35,4 +35,4 @@ For implementing Breadth-first:
 
 //Resource:
 - http://www.letscodethemup.com/graph-search-breadth-first-search/
--Evan (TA)
+- Evan (TA)
