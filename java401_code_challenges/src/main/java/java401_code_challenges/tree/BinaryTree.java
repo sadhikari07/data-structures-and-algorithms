@@ -107,6 +107,7 @@ public class BinaryTree {
 //        ArrayList  outputRecieved= tree.inOrder();
 //        System.out.println(outputRecieved);
 
+
         System.out.println(findMax(tree));
 
     }

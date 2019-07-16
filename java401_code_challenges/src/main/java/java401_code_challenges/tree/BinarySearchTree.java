@@ -28,7 +28,6 @@ public class BinarySearchTree {
 
     public void add(int toBeAdded){
         root = addNode(root, toBeAdded);
-
     }
 
 
