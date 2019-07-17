@@ -19,10 +19,12 @@ public class BreadthFirstGraph {
 
         collectionOfVertices.add(startVertex);
 
+        HashSet<Graph.Edge> edgesHashSet;
+
         while(!queueOfEdges.isEmpty()){
             Graph.Vertex vertexOfInterest = queueOfEdges.remove();
-
-            for(Graph.Edge edge : vertexOfInterest.edges) {
+            edgesHashSet = vertexOfInterest.edges;
+            for(Graph.Edge edge : edgesHashSet) {
 
                 if (!collectionOfVertices.contains(edge.end)) {
                     collectionOfVertices.add(edge.end);
