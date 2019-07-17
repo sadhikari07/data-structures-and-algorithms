@@ -43,3 +43,5 @@
 ## [Readme for Graph Implementation](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/graph/graph.md)
 
 ## [Readme for Graph Breadth First Traversal](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/breadth_first_graph/breadthFirstGraph.md)
+
+## [Readme for get edge](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/getEdge/getEdge.md)
