@@ -2,7 +2,7 @@ package java401_code_challenges.graph;
 
 import java.util.*;
 
-public class Graph {
+public class Graph<T> {
 
     public HashSet<Vertex> vertices;
     public int size;
@@ -12,14 +12,14 @@ public class Graph {
         vertices = new HashSet<>();
     }
 
-    public void addEdge(Vertex start, Vertex end, int weight){
+    public void addEdge(Vertex<T> start, Vertex<T> end, int weight){
        Edge newEdge = new Edge(start, end, weight);
        Edge edgeReversed = new Edge(end, start, weight);
        start.edges.add(newEdge);
        end.edges.add(edgeReversed);
     }
 
-    public Vertex addVertex(int value){
+    public Vertex addVertex(T value){
         Vertex newVertex = new Vertex(value);
         vertices.add(newVertex);
         size++;
@@ -44,7 +44,7 @@ public class Graph {
     public class Edge{
         public Vertex start;
         public Vertex end;
-        int weight;
+        public int weight;
         public Edge(Vertex start, Vertex end, int weight){
             this.start = start;
             this.end = end;
@@ -52,11 +52,11 @@ public class Graph {
         }
     }
 
-    public class Vertex{
-        public int value;
+    public class Vertex<T>{
+        public T value;
         public HashSet<Edge> edges;
 
-        public Vertex(int value){
+        public Vertex(T value){
             this.value = value;
             this.edges = new HashSet<>();
         }

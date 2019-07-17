@@ -2,6 +2,8 @@ package java401_code_challenges.graph;
 
 import org.junit.Test;
 
+import java.util.HashSet;
+
 import static org.junit.Assert.*;
 
 public class GraphTest {
@@ -78,7 +80,9 @@ public class GraphTest {
         classUnderTest.addEdge(result1, result2, 4);
         classUnderTest.addEdge(result1, result3, 4);
         classUnderTest.addEdge(result2, result3, 3);
-        for(Graph.Edge edge : classUnderTest.getNeighbors(result1)){
+        HashSet<Graph.Edge> edgesHashSet = classUnderTest.getNeighbors(result1);
+
+        for(Graph.Edge edge : edgesHashSet){
             assertEquals("The value of weight returned from the getNeighbors() should be 4", 4, edge.weight);
         }
     }

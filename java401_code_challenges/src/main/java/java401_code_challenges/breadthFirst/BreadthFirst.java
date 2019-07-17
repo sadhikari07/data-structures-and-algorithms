@@ -38,9 +38,7 @@ public class BreadthFirst {
                 newQueue.add(newNode.rightChild);
             }
         }
-
         return newArraylist;
-
     }
 
     public static void main(String[] args) {
