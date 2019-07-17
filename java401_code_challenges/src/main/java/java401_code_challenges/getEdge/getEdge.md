@@ -31,13 +31,13 @@ Without utilizing any of the built-in methods available to your language, return
 
     findConnnectionOnNonExistingCity: Tests for connection with a city that doesn't exist in the graph
 
-## [Link to GetEdge.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/breadthFirst/BreadthFirst.java)
+## [Link to GetEdge.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/getEdge/GetEdge.java)
 
-## [Link to GetEdgeTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/breadthFirst/BreadthFirstTest.java)
+## [Link to GetEdgeTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/getEdge/GetEdgeTest.java)
 
 
 ## Solution
-![Get Edge Challenge](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/breadthFirstGraph.jpg)
+![Get Edge Challenge](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/getEdgeWhiteboard.jpg)
 
 
 
