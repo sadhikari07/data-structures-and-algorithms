@@ -30,9 +30,9 @@ The big O for this approach is O(n^2).
     testBreadthWitFloatingVertex: Tests the size of return of breadth first traversal with one vertex not connected to anything.
 
 
-## [Link to DepthFirst.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/depthFirst/DepththFirst.java)
+## [Link to DepthFirst.java:](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/main/java/java401_code_challenges/depth_first_graph/DepthFirst.java)
 
-## [Link to DepthFirstTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/depthFirst/DepthFirstTest.java)
+## [Link to DepthFirstTest.java](https://github.com/sadhikari07/data-structures-and-algorithms/blob/master/java401_code_challenges/src/test/java/java401_code_challenges/depth_first_graph/DepthFirstTest.java)
 
 
 ## Solution
