@@ -39,7 +39,6 @@ The big O for this approach is O(n^2).
 ![Get Edge Challenge](https://raw.githubusercontent.com/sadhikari07/data-structures-and-algorithms/master/java401_code_challenges/assets/depthFirstGraph.jpg)
 
 
-
 //Resource:
 - https://algorithms.tutorialhorizon.com/graph-depth-first-search-using-recursion/
 - https://java2blog.com/depth-first-search-in-java/
