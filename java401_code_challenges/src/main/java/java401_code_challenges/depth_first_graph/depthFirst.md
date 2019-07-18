@@ -1,4 +1,4 @@
-# Get Edge
+# Depth First Graph
 
 Conduct a depth first preorder traversal on a graph.
 
